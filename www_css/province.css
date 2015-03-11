@@ -1,0 +1,198 @@
+html{ height:100%; background:url(../www_images/city/sheng/sheng_body_bg.jpg) left  -1px repeat-x;}
+
+body{  background:url(../www_images/city/sheng/bg_h1_anhui.jpg)  center 40px no-repeat;}
+
+.sheng_nav{width:960px; margin:0 auto; height:187px; padding-top:40px; }
+
+.sheng_nav h2, .sheng_nav h2 a{ color:#FFF;}
+
+.sheng_nav h2 a{ height:118px; width:200px; text-indent:-3333333em; display:block; overflow:hidden;}
+
+.sheng_nav h2 a:hover{ color:#FF0; text-decoration:none;}
+
+.sheng_nav .mlink{ font-size:12px; line-height:25px; color:#930; width:420px;  top:70px; left:260px;}
+
+.sheng_nav .mlink a{color:#930; display:inline-block;}
+
+.sheng_nav .mlink a:hover{ background:#930; color:#FFF; text-decoration:none;}
+
+.sheng_nav .mlink .more{ right:20px; top:2px;}
+
+.sheng_nav .mlink .more a{ line-height:40px; padding-right:40px; font-size:14px;color:#FFF!important;}
+
+.sheng_nav a{ padding:0 5px; color:#06C; }
+
+.sheng_nav .inner a, .sheng_nav .inner a:hover{color:#FFF;}
+
+.sheng_nav .inner { padding:12px 40px 0 0}
+
+.sheng_nav .inner ul li{ float:left; padding:0 10px;}
+
+.sheng_nav .inner ul li a{  font-weight:bold;}
+
+.main{  clear:both; overflow:hidden;  width:960px; margin:10px auto ;  color:#666; background:url(../www_images/city/sheng/sheng_sider.png) right top repeat-y; }
+
+.main h3{ font-size:14px;}
+
+.main h3 a{ text-decoration:none; }
+
+.main h3 span.fr a{ font-size:12px; font-weight:400; color:#999; }
+
+.sider{ width:740px; clear:both; overflow:hidden; _zoom:1;}
+
+.sider .inner{ width:360px; font-size:12px; }
+
+.sider_2 .inner h3 a{ padding:5px 30px; line-height:35px; display:block; background:url(../www_images/city/sheng/sheng_title.png) left center no-repeat; color:#FFF;}
+
+.sider_peixun dl{ padding:10px; position:relative; border-bottom:1px dotted #CCC;  _zoom:1;}
+
+.sider_peixun dl:hover{ background:#EEE;}
+
+.sider_peixun dl dt{ clear:both; overflow:hidden; height:50px; line-height:2.2em;}
+
+.sider_peixun dl dt .li_img{ padding-right:10px;}
+
+.sider_peixun dl dt .li_img img{ width:50px; height:50px;}
+
+.sider_peixun dl dt strong{ padding-right:20px;}
+
+.sider_peixun dl dd, .sider_peixun .inner dl dd a{ line-height:2em;}
+
+.sider_peixun dl dd.pa{ top:20px; right:10px;}
+
+.sider_peixun dl dd.pa a{ padding:0 5px; background:#666; color:#FFF; display:inline-block;}
+
+.sider_peixun dl dd.pa a:hover{ background:#F60;}
+
+.sider_peixun dl dd em{ font-style:normal;  color:#F60; padding-left:5px;}
+
+.sider_peixun dl dd strong{ color:#F00; font-size:18px; padding:0 5px;}
+
+.sider_peixun ul{ padding-bottom:5px;}
+
+.sider_peixun ul li{ position:relative; line-height:2em; padding:10px; border-bottom:1px dotted #CCC; _zoom:1;}
+
+.sider_peixun ul li span{ padding-left:20px;}
+
+
+
+.sider_music{ padding:0;}
+
+.sider_music{ font-size:14px; height:30px; line-height:30px;}
+
+.sider_music a{ color:#000}
+
+.sider_music span.s_ico{ float:right; margin-top:-30px!ie; padding-top:9px}
+
+.sider_music span.s_ico a{ float:left; vertical-align:top; margin-left:6px}
+
+.sider_music li{ padding-left:12px; font-size:12px!important;  border-bottom:1px dotted #ddd;}
+
+.sider_music li a{ color:#369!important}
+
+span.s_ico a{ float:right; vertical-align:top; width:15px; height:15px; overflow:hidden; text-indent:-999em; background:url(../www_images/song/ico1.png) no-repeat}
+
+span.s_ico a.shiting{ background-position:0 -96px}
+
+span.s_ico a.shiting:hover{background-position:0 -116px}
+
+span.s_ico a.xiazai{background-position:0 -6px}
+
+span.s_ico a.xiazai:hover{background-position:0 -26px}
+
+span.s_ico a.shoucang{background-position:0 -141px}
+
+span.s_ico a.shoucang:hover{background-position:0 -161px}
+
+span.s_ico a.qupu{background-position:0 -51px}
+
+span.s_ico a.qupu:hover{background-position:0 -71px}
+
+
+
+.sheng_middle{clear:both;  padding-bottom:20px; _zoom:1;}
+
+.sheng_middle .inner h3{ line-height:35px; padding:2px 40px 8px; background:url(../www_images/city/sheng/sheng_title_1.png)  left center no-repeat; }
+
+.sheng_middle .inner h3 a{ color:#000;}
+
+.news dl{ padding:12px 0 0; zoom:1; }
+
+.news dl dt{ font-size:14px; font-weight:bold; line-height:2em;}
+
+.news dl dd{ clear:both; overflow:hidden; _zoom:1; }
+
+.news dl dd .fl{ padding-right:10px; }
+
+.news dl dd p{ line-height:2em;}
+
+.news ul{ padding:10px 0 0; line-height:2em; font-size:14px;}
+
+.news ul a{ padding-left:5px;}
+
+
+
+.zhenghui{}
+
+.zhenghui h4 a{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-weight:400; font-size:20px; color:#C00; line-height:2em
+
+; display:block;}
+
+.zhenghui p.zhaiyao{ background:#EFEFEF; font-size:12px; padding:10px;}
+
+/*
+
+.zhenghui dl{margin-top:10px; line-height:2.2em; }
+
+.zhenghui dl dt{ font-weight:bold;}
+
+.zhenghui dl dd.li_img a{ overflow:hidden; display:block;  padding:4px; border:1px solid #CCC;}
+
+.zhenghui dl dd.li_img a, .zhenghui dl dd.li_img img{ width:200px;}
+
+.zhenghui dl dd.more{ right:0; top:20px;}
+
+*/
+
+.huizhang { padding:10px 0 0;}
+
+.huizhang .li_img{ padding-right:10px;}
+
+.huizhang .li_title{}
+
+.huizhang .li_img, .huizhang .li_img img{ width:200px;}
+
+.huizhang .li_title strong a{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:22px; display:block; line-height:1.5em; color:#C00;}
+
+.huizhang .li_title b{  color:#000;}
+
+.huizhang .li_title p{ padding:10px 0 0; color:#666;}
+
+
+
+.sheng_middle{ clear:both; overflow:hidden;}
+
+.sheng_middle .inner ul.zhengren li{ padding:10px 0 0;}
+
+.sheng_middle .inner ul.zhengren .li_img{ padding:5px; border:1px solid #CCC; overflow:hidden; margin-right:10px;}
+
+.sheng_middle .inner ul.zhengren .li_img, .sheng_middle .inner ul.zhengren .li_img img{ width:90px; height:90px;}
+
+.sheng_middle .inner ul.zhengren li p{ font-size:12px;}
+
+
+
+.sider_banner{ width:200px;  }
+
+.topbar{ border:none; background:none;}
+
+.topbar #uc_login{ padding-left:200px; background:url(../www_images/city/sheng/topbar_logo.png) left 0 no-repeat;}
+
+.topbar a, .topbar{ color:#FFF;}
+
+.topbar .inner p.fr a{ color:#FFF; }
+
+.topbar_2 .inner li a{ color:#C00}
+
+#uc_login .uc_pa ul li a{ color:#333;}
+

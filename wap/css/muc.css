@@ -1,0 +1,49 @@
+*{ padding:0; margin:0;}
+body{ background:#910011;}
+.none{ display:none; overflow:hidden;}
+.block{ display:block; height:auto;}
+.mlogo{ text-align:center; }
+.mlogo img{max-width:100%;}
+.mreg{ padding-top:20px;}
+.mlogin, .mreg{ text-align:center;}
+.mlogin img, .mreg  img{ max-width:80%;}
+.mlogin .inner{ padding:40px 0; height:263px;}
+.mlogin .inner{ background:url(images/bg_log.jpg) center bottom no-repeat;}
+.mreg .inner{ padding:40px 0; height:461px;}
+.mreg .inner{ background:url(images/bg_reg.jpg) center bottom no-repeat;}
+.denglu .inner p{ padding:20px 0;}
+.denglu input[type="text"],.denglu input[type="password"], .denglu input[type="email"], .denglu input[type="submit"]{ width:80%; max-width:610px; height:50px;  font-size:24px; }
+.denglu input[type="text"], .denglu input[type="password"],.denglu input[type="email"]{border:1px solid #CCC; border-color:#666 #ccc #ccc #666;text-indent:0.5em;}
+.denglu input[type="submit"]{ border:none; background:#222; color:#FFF; text-shadow:#000 1px 1px 1px; box-shadow:#333 1px 5px 50px;}
+
+footer{border-top:1px solid #600;}
+.obottom{text-align:center; margin-top:40px;}
+.obottom .cr{ padding:10px 10px 20px;  color:#F90; }
+		/* iPads (landscape) */
+		@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+			
+		}
+		/* iPads (portrait) */
+		@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+			
+		}
+		/* iPads */
+		@media screen and (min-device-width : 768px) and (max-device-width : 1024px){
+			
+		}
+		/* iphone */
+		@media only screen and (-webkit-min-device-pixel-ratio : 1.5) and (orientation : portrait) {
+			body,html{max-width:320px}
+			.mlogin .inner{ padding:20px 0; }
+			.mlogin .inner{ background:url(images/bg_log_iphone.jpg) center bottom no-repeat;}
+			.mreg .inner{ padding:20px 0; }
+			.mreg .inner{ background:url(images/bg_reg_iphone.jpg) center bottom no-repeat;}
+			.denglu input[type="text"], .denglu input[type="email"], .denglu input[type="submit"]{ max-width:300px; height:40px;  font-size:20px; }
+			
+		}
+		@media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 2) {
+
+			  
+		}
+
+

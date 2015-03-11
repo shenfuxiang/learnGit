@@ -1,0 +1,48 @@
+html, body, .boxmain, .m_view_music{ height:100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,input{margin:0;padding:0; }
+body{ font-family:'Myriad Set Pro','Roboto','STHeiti Light','Microsoft YaHei','SimHei','SimSun'; font-size:14px;  background:#EEE;}
+h3{ font-size:16px;}
+ul li,dl li{list-style:none}
+fieldset,img,abbr,acronym{ border:none}
+img{-ms-interpolation-mode:bicubic}
+a{ color:#999; text-decoration:none; outline:none;}
+.fl{ float:left;}
+.fr{ float:right;}
+.pr{ position:relative;}
+.pa{ position:absolute;}
+.clear{ clear:both; }
+.boxheader{ overflow:hidden; background:#222; padding:10px; height:70px; position:relative;}
+.boxheader .so, .boxheader .so input[type="text"], .boxheader .so input[type="submit"]{  border-radius:15px; height:30px; background:none; border:none; line-height:30px;}
+.boxheader .so{ margin:20px 0 0 40px; background:#EEE; padding:0 0 0 10px;}
+.boxheader .so input[type="text"]{ width:150px;  }
+.boxheader .so input[type="submit"]{ text-indent:-9999em; width:40px; cursor:pointer; background:url(images/so.png) center center no-repeat; } 
+.boxheader .m_login{ position:absolute; right:20px; top:20px; cursor:pointer;}
+.boxheader .m_login a.avatar{  border:3px solid #FFF; box-shadow:#000 0px 2px 5px;  border-radius:23px; width:40px; height:40px; overflow:hidden; display:block; text-shadow:#000 1px 1px 1px; float:left;}
+.boxheader  .m_login a.avatar span{display:block; width:46px;  line-height:40px; font-size:22px; color:#FFF; text-indent:-2px; }
+.boxheader .m_login a.avatar img{ max-height:44px; max-height:44px; }
+.boxheader .m_login a.avatar:hover{  background:#F66; }
+.boxheader .m_login p{ float:left; color:#CCC; padding:0 10px;}
+.boxheader .m_login p a, .boxheader .m_login p span{ display:block; line-height:2.5em;}  
+.boxheader .m_login p a{ color:#FFF;}
+.boxmain{ padding-left:440px; height:100%;}
+.boxleft{ position:absolute; left:0;  background:#222; box-shadow:#444 0px 0px 5px}
+.boxright{ height:100%; }
+
+.topbar{ line-height:40px; height:40px; padding:0 10px; background:#F9F9F9; border-bottom:1px solid #E6E6E6; width:auto; }
+.topbar .inner p{ color:#999; font-size:12px}
+.topbar .inner p span.j{ margin:0 0.5em}
+.topbar .inner a{ color:#555}
+.topbar .inner .tb{ padding-left:16px; margin-right:15px; background:url(../www_images/gobal/topbar.png) no-repeat;}
+.topbar .inner .tb_home{ background-position:0 2px ;}
+.topbar .inner .tb_qnav{ background-position:0 -58px ;}
+.topbar .inner .tb_uc{  background-position:0 -113px ;}
+.topbar .inner p.fr{ color:#CCC;}
+.topbar .inner p.fr strong{ color:#f60; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:100}
+.topbar .inner p.fr .backhome{ padding-left:15px; margin-left:15px; background:url(../www_images/gobal/home_ico.png) 0 1px no-repeat;}
+.topbar .inner .topweibo, .topbar .inner .topweixin{display:inline-block; padding-left:19px; }
+.topbar .inner p.fr .topweibo{ background:url(../www_images/gobal/topsina.png) 0 12px no-repeat;}
+.topbar .inner p.fr .topweixin{ background:url(../www_images/gobal/topweixin.png) 0 11px no-repeat;}
+.topbar .inner{ position:relative}
+
+/* end topbar */
+

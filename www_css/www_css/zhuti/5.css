@@ -1,0 +1,85 @@
+*{ margin:0; padding:0; list-style:none;}
+a:link,a:visited{ text-decoration:none;}
+body{ background:url(../../www_images/zhuti/duanwu/bannerbg.png) 0 40px #f8f6ec repeat-x; font-size:12px; color:#000; line-height:1.5em; font-family:"ËÎÌå";}
+img{ border:none;}
+.pr{ position:relative}
+.pa{ position:absolute;}
+.fl{ float:left;}
+.fr{ float:right;}
+.top{ width:100%;}
+li:hover{-webkit-transition:background-color .1s linear;  -moz-transition:background-color .1s linear; transition:background-color .2s linear;}
+.top{ height:35px; background:url(../../www_images/zhuti/duanwu/bg_top.png) 0 0 repeat-x; }
+.top .logo a{ width:310px; height:35px; overflow:hidden; display:block; text-indent:-333333em; background:url(../../www_images/zhuti/duanwu/logo.png) 0 0 no-repeat;}
+.top .site{ line-height:35px; color:#999; padding:0 20px;}
+.header{ height:180px; background:url(../../www_images/zhuti/duanwu/bg_h1.jpg) ; position:relative; }
+.header .w{  margin:0 auto;}
+.header .w h1 a{ width:580px; height:223px; overflow:hidden; display:block; text-indent:-333333em;}
+.header .w .zhaiyao{ position:absolute; bottom:-100px; width:960px; text-indent:2em; ine-height:2em;}
+.header .w .zhaiyao p{ padding:10px; background:#CFC; border:solid #360; border-width:1px 5px; box-shadow:#666 1px 0px 3px; -moz-box-shadow:#666 1px 0px 3px; color:#063; }
+.header .w .mianbaoxue{ width:960px; clear:both; overflow:hidden; position:absolute; bottom:-45px;}
+.header .w .mianbaoxue .site{ float:left; color:#333; line-height:45px; padding-left:50px;}
+.header .w .mianbaoxue .site a{ color:#000;}
+#fenxiang{ color:#333;}
+.header .w .mianbaoxue .site a:hover{ text-decoration:underline;}
+.main{ margin:100px auto 50px; clear:both; overflow:hidden;}
+.main .side_n ul{}
+.main .side_n ul li{ padding:1px 145px 1px 1px; background:#360; position:relative; margin:20px 0; box-shadow:#999 1px 0px 3px; -moz-box-shadow:#999 1px 0px 3px; zoom:1;}
+.main .side_n ul li, .main .side_n ul li .qu_m, .main .side_list, .header .w .zhaiyao p, .main .side_n #song{border-radius:30px;-moz-border-radius:30px;}
+.main .side_n ul li .qu_m{ background:url(../../www_images/zhuti/duanwu/bg_m.png) #FFF 0 0 no-repeat; }
+.main .side_n ul li .qu_m h3{ font-size:26px; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-weight:400; line-height:85px; }
+.main .side_n ul li .qu_m h3 a{ display:block; padding-left:90px; color:#063;}
+.main .side_n ul li .qu_m h3 a:hover{ color:#996600;}
+.main .side_n ul li:hover{ background:#996600; color:#000 }
+.main .side_n ul li:hover .qu_m{ background:url(../../www_images/zhuti/duanwu/bg_m_hover.png) #FFF 0 0 no-repeat;}
+.main .side_n ul li .qu_m .zhaiyao{  line-height:1.5em; padding:0 10px 10px 90px; margin-top:-10px; color:#666; }
+.main .side_n ul li:hover .qu_n .yanzouzhe{border-color:#FFF; }
+.main .side_n ul li a{ color:#FFF;}
+.main .side_n ul li{ color:#FFF;}
+.main .side_n ul li:hover a{color:#000}
+.main .side_n ul li .qu_n{ width:144px; height:85px; position:absolute; right:1px; top:0; }
+.main .side_n ul li .qu_n span{ float:left; padding:0 12px; line-height:35px;color:#FFF; }
+.main .side_n ul li .qu_n span a{ color:#FFF;}
+.main .side_n ul li .qu_n .yanzouzhe{ width:100%; border-bottom:1px solid #ffdfdf; line-height:45px; text-align:center; padding:0;}
+.main .side_n ul li .qu_n .pinglun a, .main .side_n ul li .qu_n .down a, .main .side_n ul li .qu_n .like a{ padding-top:12px; background:url(../../www_images/zhuti/duanwu/bg_icon.png) no-repeat; display:block;}
+.main .side_n ul li .qu_n .pinglun a{ background-position:center 8px;}
+.main .side_n ul li .qu_n .down a{ background-position:center -42px;}
+.main .side_n ul li .qu_n .like a{ background-position:center -92px;}
+.main .side_n #song{background:#360; padding:5px 10px; line-height:2em; color:#FFF; cursor:pointer; font-size:14px; text-align:center}
+.main .side_n #song:hover{background:#66ccff;}
+.main .side_n #song span{ font-weight:bold; padding:0 3px;}
+.main .side_n ul li .qu_m .player{ position:absolute; top:30px; right:155px;   }
+.main .side_n ul li .qu_m .player .audioplay{ width:250px; background:url(../../www_images/zhuti/zhangguorong/player.png) no-repeat ;width:113px; height:42px;}
+.main .side_list{ width:200px; padding:10px 0; background:#360; margin-top:20px; box-shadow:#333 1px 0px 8px; -moz-box-shadow:#333 1px 0px 8px; }
+.main .side_list .side_all ul{}
+.main .side_list .side_all h4 a{ font-size:12px; color:#fff; padding:0 10px;}
+.main .side_list .side_all ul li img{ width:60px; height:60px; float:left; padding-right:10px; }
+.main .side_list .side_all ul li{ padding:10px; background:#FFF; margin:10px 0;  clear:both; overflow:hidden; zoom:1;}
+.main .side_list .side_all ul li:hover{ background:#360;}
+.main .side_list .side_all ul li:hover p{ color:#FFF;}
+.main .side_list .side_all ul li:hover a{ color:#FFF;}
+.main .side_list .side_all ul li a{ color:#000;}
+.main .side_list .side_all ul li a:hover{ color:#FFF; text-decoration:underline;}
+.main .side_list .side_all ul li p{ color:#777;}
+.main .side_list .side_all ul li p b{ display:block; line-height:2em;}
+.header{ padding-top:41px; background-repeat:no-repeat; background-position:center 41px;}
+.header{ padding-top:41px; background-repeat:no-repeat; background-position:center 41px;}
+.mbx .mianbaoxue .site{ line-height:40px;}
+.mbx{ margin-top:-40px;}
+@media screen and (max-width: 1024px) {	
+
+			body{ background-image:none;}
+.main{ margin-top:0px;}
+.main, .main .side_n , .header .w, .main .side_n ul li .qu_n{ top:auto; bottom:-30px!important;}
+.main .side_n ul li .qu_n span.yanzouzhe{ border:none;}
+.header,  .header .w .zhaiyao p, .header .w .zhaiyao,.header .w h1 a, .header .w h1{ width:auto; height:auto; position:static; }
+.header .w .zhaiyao p{ position:inherit; line-height:2em; color:#000; right:auto; bottom:auto;}
+.header .w h1 a	{  color:#000; text-indent:0em; line-height:2em;  text-align:center;}
+.main .side_n ul li .qu_m, .main .side_n ul li:hover .qu_m{background-image:none;}
+.main .side_n ul li .qu_m h3 a,.main .side_n ul li .qu_m .zhaiyao{ padding-left:10px;}
+.main .side_n ul li .qu_m .player{position:inherit; margin:10px; }
+.main .side_n ul li .qu_m h3 { line-height:1.5em; }
+}
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 2) {
+
+				.header .w h1 , .header .w h1 a, .header .w .zhaiyao{ width:320px;}
+}

@@ -1,0 +1,53 @@
+.diqu_toutiao ul li{ clear:both; overflow:hidden; padding:10px 0 ; border-top:1px dashed #CCC;}
+.diqu_toutiao ul li strong a{ font-size:22px;  padding:10px 0 ; display:block;}
+.diqu_toutiao ul li .timg{ padding-right:10px;}
+.diqu_toutiao ul li .timg a{ width:80px; height:80px; background:#ccc;}
+.diqu_toutiao ul li p span{ color:#000; padding-right:10px;}
+.diqu_toutiao ul li .inner{ line-height:1.7em;}
+
+.diqu_city{ padding-bottom:20px;}
+.diqu_city strong{ display:block; margin-top:20px;}
+.diqu_city p{ display:block; padding:10px 0;}
+.diqu_cityzm{ margin:20px 0; }
+.diqu_cityzm a{background:#999; color:#FFF; margin:10px; padding:5px 10px;}
+
+.diqu_zhaopin{}
+.diqu_zhaopin ul li{ padding:10px 0; border-top:1px dashed #CCC;}
+.diqu_zhaopin ul li span{ color:#000;}
+
+.ciyelist a{ display:inline-block; padding:5px 10px; background:#999; color:#FFF; margin:0 20px 20px 0;}
+.ciyelist a.now{ background:#F90;}
+
+.diqu_toutiao .more, .diqu_city .more, .diqu_zhaopin .more{ background:#EEE;  text-align:center;}
+.diqu_toutiao .more a, .diqu_city  .more a, .diqu_zhaopin  .more a{ color:#999; padding:10px; display:block;}
+
+.viewinner{ padding:10px 0;}
+.viewinner h1{ padding:10px 0; color:#333 }
+.viewinner h4{ background:#EEE; padding:5px 10px; color:#666; margin:10px 0;} 
+.viewinner ul li{ padding:5px 0; }
+.viewinner ul li span{ color:#000;}
+
+.diqu_toutiao ul li .inner .yz span, .viewinner ul li.yz span{ padding:2px 5px; background:#FEE; color:#C66; margin-right:15px; font-size:12px;}
+
+.cityinner ul li{ padding:10px 0 10px 10px; position:relative;}
+.cityinner ul li .xulie{  padding:10px 5px 0 0; color:#900; position:absolute; left:0;}
+.cityinner ul li a{ padding:10px 20px; display:inline-block;}
+
+
+		/* iPads (landscape) */
+		@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+			
+		}
+		/* iPads (portrait) */
+		@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+			
+		}
+		/* iPads */
+		@media screen and (min-device-width : 768px) and (max-device-width : 1024px){
+		.cityzm a{ padding:20px 40px; font-size:22px;}
+		.viewinner h1{ font-size:1.5em;}
+		}
+		/* iphone */
+		@media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 2) {
+			.cityzm a{ padding:20px; font-size:20px;}
+		}

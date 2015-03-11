@@ -1,0 +1,76 @@
+@charset "gb2312";
+/* CSS Document */
+.zbanner{ margin-top:30px; background:#333; margin-bottom:10px; border-bottom:4px solid #111}
+.zbanner .inner{ width:960px; margin:0px auto; height:200px}
+#zhuanti{}
+#zhuanti dl{ clear:both; overflow:hidden; zoom:1; padding:10px; height:50px; border-bottom:1px dotted #ddd}
+#zhuanti dl dt{ float:left; width:50px; padding-right:10px}
+#zhuanti dl dd{line-height:1.2em}
+#zhuanti dl dd span.title{ display:block; line-height:1.4em; padding-bottom:2px; font-family:"ËÎÌå"}
+#zhuanti dl dd span.title a{ color:#000; font-weight:bold}
+#zhuanti dl dd span.info{ color:#666; font-size:12px; display:block; text-indent:2em;}
+#zhuanti dl dd span.info a{ color:#369; text-decoration:underline; text-indent:0}
+#zhuanti dl{}
+#zhuanti dl dt img{ width:50px; height:50px}
+#zhuanti dl dd span.info{ display:none}
+#zhuanti dl dd span.title a{ color:#555}
+#zhuanti dl.hover{ background:#eee; height:121px;}
+#zhuanti dl.hover dd span.info{ display:block}
+#zhuanti dl.hover dd span.title a{ color:#000}
+#zhuanti dl.hover dt{ width:100px}
+#zhuanti dl.hover dt img{ width:100px; height:100px}
+.zhuanti_photo{ width:300px; height:300px; margin-bottom:10px}
+.zhuanti_photo img{-webkit-border-radius:4px;border-radius:4px;-moz-border-radius:4px}
+.mt-170{ margin-top:-180px}
+.mt-170 .pt170{ padding-top:180px}
+.daodu{ border:1px solid #ddd; background:#fff; padding:10px;-webkit-border-radius:4px;border-radius:4px;-moz-border-radius:4px; margin-bottom:10px}
+.daodu{ line-height:1.6em}
+.daodu img.fl{ float:left; margin-right:10px}
+.daodu .link{ padding-top:5px}
+.daodu .link a{ margin-right:14px; text-decoration:underline}
+
+.newsindexh{ padding:10px 0 0 6px}
+.newsindexh h2{ margin-bottom:8px}
+.newsindexh h2,.newsindexh h2 a{font-family: "Î¢ÈíÑÅºÚ","ºÚÌå";text-shadow:#eee 2px 2px 2px;font-weight:500;font-size:24px; color:#000}
+.newsindexh h2 a:hover{ text-decoration:underline; color:red}
+.newsindexh p.info{ font-size:12px; color:#666; line-height:16px; border-bottom:1px dotted #ddd; padding-bottom:10px; margin-bottom:10px}
+.newsindexlist h3{font-family: "Î¢ÈíÑÅºÚ","ºÚÌå";text-shadow:#eee 2px 2px 2px;font-weight:bold;font-size:16px; color:#000; line-height:28px; border-bottom:1px solid #ddd}
+
+ul.ul_news_all{}
+ul.ul_news_all li{ font-size:14px; height:31px; line-height:31px; border-bottom:1px dotted #ddd}
+ul.ul_news_all li:hover{ background:#efefef}
+ul.ul_news_all li span.dot{ font-size:12px; font-weight:100; color:#999; font-family:"ËÎÌå"}
+ul.ul_news_all li span.time{ font-size:12px; color:#999; font-family:Arial, Helvetica, sans-serif; float:right; margin-top:-31px!ie;}
+ul.ul_news_all li span.leibie{ font-size:12px; font-family:"ËÎÌå"}
+ul.ul_news_all li span.title a{ color:#000}
+ul.ul_news_all li span.title a:hover{ color:red}
+ul.ul_news_all li.mb20{ margin-bottom:24px}
+ul.ul_news_all li span.time{ color:#666}
+ul.ul_news_all li.more{ text-align:right; font-size:12px; border:0;}
+ul.ul_news_all li.more a{ color:blue; text-decoration:underline}
+
+ul.ul_videolist{ padding:10px 10px 0}
+ul.ul_videolist li{ border-bottom:1px dotted #ddd; padding-bottom:10px; margin-bottom:10px; clear:both; overflow:hidden; zoom:1}
+ul.ul_videolist li.first{ text-align:center}
+ul.ul_videolist li.first img{ display:block; margin-bottom:4px}
+ul.ul_videolist li span.vimg{ float:left;  margin-right:10px}
+ul.ul_videolist li span.title a{ font-size:14px; font-weight:bold; color:black}
+
+ul.ul_imglist_4,ul.ul_imgfloat_2{ clear:both; overflow:hidden; zoom:1; padding-top:15px;}
+ul.ul_imglist_4 li{ float:left; display:inline!ie; margin-left:24px; height:136px}
+ul.ul_imglist_4 li img{ display:block; margin-bottom:3px}
+ul.ul_imglist_4 li{width:100px; text-align:center; font-size:12px}
+ul.ul_imgfloat_2{ padding:15px 0 15px 15px}
+ul.ul_imgfloat_2 li{ float:left; display:inline!ie; width:49%; padding-right:1%;}
+ul.ul_imgfloat_2 li span.vimg{ float:left; margin-right:10px}
+ul.ul_imgfloat_2 li span.title{}
+ul.ul_imgfloat_2 li span.title a{ font-size:14px; font-weight:bold; color:#000}
+ul.ul_imgfloat_2 li span.info{ font-size:12px; color:#888; display:block!important;}
+
+.ul_news_f12{ padding:10px}
+.ul_news_f12 li{ font-size:12px; height:24px; line-height:24px}
+.ul_news_f12 li span.dot{ font-family:"ËÎÌå"; color:#999}
+.ul_news_f12 li span.title a{ color:#666}
+.ul_news_f12 li span.title a:hover{ color:blue}
+
+.zhuantiimg{ height:170px; width:650px; height:200px; overflow:hidden}

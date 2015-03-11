@@ -1,0 +1,77 @@
+.nav_tv ul { width:720px;}
+.nav_tv ul li a {}
+body {color: #666; font-family: "ËÎÌå";}
+.nav_tv{  padding:13px 0 2px; background:url(../www_images/tv/bg_nav.png) 0 0 no-repeat;}
+.bgnone{ background:none}
+.main{ background:none;}
+.row1 .siderleft, .music{ width:780px;}
+.row1 .siderright, .iqupu{ width:220px; overflow:hidden;}
+.row1 .siderright .banner, .hd8{ background:#F2F2F2;}
+.row1, .rowbanner{ border-bottom:1px solid #DDD; zoom:1;}
+.row1 .news .banner a, .row1 .siderright .banner a{ height:100px; padding:10px; display:block; overflow:hidden;}
+.row1 .siderright .banner a{ padding-bottom:0;}
+.row1 .siderright .banner{ top:0; left:0;}
+.tv h3{clear: both;overflow: hidden;padding: 10px 10px 4px 0;line-height: 40px;height: 40px;}
+.tv h3 .title a{ clear:both; overflow:hidden; padding:10px 10px 4px 0; line-height:40px; height:40px;font-weight: 400;font-family: Microsoft YaHei,"ºÚÌå",arial;padding-left: 15px;}
+h3 .title a {font-size: 26px;color: #C33;}
+h3 .title a:hover{ color:#E00; text-decoration:none;}
+.avatar, .avatar a {background: #EEE;}
+.tv h3 span a {color: #999;font: 400 12px/48px "ËÎÌå"; line-height:25px;}
+.tv h3 .title{ float:left;}
+.tv h3 .tip{ font-size:12px; color:#666; font-weight:400; padding-left:20px;}
+.tv .tv_hot .title a, .tv .tvinner .title a{ display:block; line-height:2.5em;}
+.tv .tv_hot{ width:350px; } 
+.tv .tv_hot .tip{ background:#EEE; font-size:12px; padding:10px;}
+.tv .tv_hot .tip a{ font-weight:bold;}
+.tv ul.tvinner{ font-size:12px;}
+.tv ul.tvinner{ width:630px;}
+.tv ul.tvinner li{ width:175px; float:left; margin-left:34px; margin-bottom:10px; display:inline;}
+.tv ul.tvinner li .avatar{ width:175px; height:115px; display:block; overflow:hidden;}
+.tv ul.tvinner li .avatar img{ width:175px; }
+.tv ul.tvinner .title{ font-weight:bold;}
+.tv .avatar{ position:relative;}
+.tv .tv_hot .avatar{width: 350px; height: 220px; overflow:hidden; display:block;}
+.tv .tv_hot .avatar img{ width: 350px; }
+.tv .avatar:after{ content:url(../www_images/www2013/bg_play.png);position: absolute; left: 5px;  bottom: 0; z-index: 10;}
+.tv .avatar:hover, .zhuti .avatar:hover, .bbsinner .avatar:hover{box-shadow:0px 0px 10px gray; -webkit-box-shadow:0px 0px 10px gray;  -moz-box-shadow:0px 0px 10px gray; }
+.tv .avatar:hover img, .zhuti .avatar:hover img, .bbsinner .avatar:hover img{-webkit-transform:scale(1.3); -moz-transform:scale(1.3);-o-transform:scale(1.3); -webkit-transition:all 1.0s;transition:all 1.0s;}
+
+/*¼¤»î¿¨*/
+.liuxing{ background: #ff9dcb; margin-bottom:15px; }
+.activate{padding:30px 0; background:#fff; text-align:center; margin:0px 30px 60px 30px; box-shadow:#333 3px 4px 10px;}
+.activate  h2{  font-size:41px; margin-bottom:20px; font-weight:600; line-height:40px;}
+.activate  h2,.jh_login .nlogin p,.activate  p.step,.sure p{ color:#000;  font-family:'Î¢ÈíÑÅºÚ','ËÎÌå';}
+.jh_login{ background:#ededed; line-height:30px; padding:50px 150px; }
+.jh_login .nlogin p{ font-size:18px; }
+.jh_login .nlogin a,.nextstep{ background:#595959; color:#fff; display:block; padding:10px 0 ; text-align:center; font-size:30px;  margin-top:20px; width:200px; line-height:30px; }
+.jh_login .nlogin a:hover,.nextstep:hover{ text-decoration:none; background:#707070;}
+.jh_login .nlogin a{letter-spacing:10px;}	
+.activate  p.step,.sure,.jh_login,.sk{ text-align:left;}
+.activate  p.step{ font-size:30px;  margin-left:35px;  margin-bottom:20px;}
+.sure{ background:#ededed; line-height:35px; padding:20px 35px;}
+.sure p{ font-size:16px;  margin-bottom:15px;}
+.sure p span{ color:#8b8b8b;}
+.sure .sure_open{ margin-left:110px; margin-top:-8px;}
+.sure p a{ color:#e85098;}
+.nextstep{ margin-left:35px; margin:35px 0 10px 35px;}
+ form.sure input.text{ width:430px; height:50px;border: 1px solid #ccc;font-size: 22px!important;padding-left: 5px;color: #c00;}
+  form.sure .nextstep{ font-size:30px!important; margin-left:0; cursor:pointer; border:0px;}
+ 	  .sk{ margin:100px 0 100px 210px; }
+	  .sk img{ float:left;}
+	  .sk p{ color:#000;}
+	  .sk .f48{ font-size:48px; font-family:"Î¢ÈíÑÅºÚ";line-height: 48px; }
+	  .sk .f24{ font-size:24px; color:#595959; margin-top:20px;}
+	  .sk .nextstep{ width:420px; height:70px; line-height:70px; margin-top:60px; margin-left:60px;}
+
+@media screen and (max-width: 1000px)
+
+{
+   
+  .tv ul.tvinner,span.tip,.liuxing .head{ display:none;}
+  .tv .tv_hot,.tv .tv_hot .avatar, .sk .nextstep,form.sure input.text{ width:auto!important; }
+  .tv .tv_hot{ float:none!important;}
+  .activate img{ max-height:200px;}
+  .activate  h2{ font-size:35px;}
+  .activate  p.step{ font-size:25px; margin-top:20px;}
+  .activate{ margin:0px;}
+}

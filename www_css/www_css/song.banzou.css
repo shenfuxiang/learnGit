@@ -1,0 +1,24 @@
+@charset "gb2312";
+/* CSS Document */
+.weizhi{ width:auto; background:#f6f6f6}
+.abc a:hover{ text-decoration:none; border-color:#91B8E0; background:#D7E7F8; color:#369!important}
+.abc{ clear:both; overflow:hidden; zoom:1; padding:10px 0;}
+.abc a,.abc span{ display:block; font-size:12px; height:14px; line-height:14px; float:left}
+.abc span{ color:#fff; background:#C71E23; border:1px solid #A51014; padding:2px 5px 3px; padding:3px 5px 2px!ie; margin-right:5px}
+.abc a{color:#666!important; border:1px solid #ddd; text-align:center; font-weight:bold; width:18px; margin-left:2px; padding:3px 0 2px}
+.mp3list ul li span.title{ width:520px}
+.mp3list h1{padding-bottom:5px}
+.mp3list h1 span.title{ font-weight:100; font-size:24px; line-height:30px; }
+#pagelist{ text-align:left!important; padding-bottom:15px!important}
+.in2{ clear:both; overflow:hidden; zoom:1; margin-left:-10px; padding-bottom:10px}
+.in2 .mp3list{ float:left; width:318px; margin-left:10px; display:inline!ie; border:1px solid #ddd;}
+.in2 .mp3list ul li span.title{ width:246px}
+.in2 .mp3list h1{ padding:10px!important;}
+.mview{ padding:20px 0}
+.mview h1{font-family: "Î¢ÈíÑÅºÚ","ºÚÌå";text-shadow:#ddd 2px 2px 2px;font-weight:600; font-size:34px; line-height:40px; padding-bottom:15px;}
+.mview .pbox{ background:#f6f6f6; padding:15px; font-size:12px; border:1px dotted #ddd}
+.mview .cont{ padding-top:15px;}
+.mview .cont .tit{ font-weight:bold; color:#666}
+.mview .cont .cont_view{ color:#777; line-height:1.8em}
+.mview .down{  color:#888; overflow:hidden; padding:20px 10px}
+.mview .down span.more{ float:right; margin-top:-24px; padding:5px 10px;}

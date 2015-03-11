@@ -1,0 +1,503 @@
+/* guzheng.cn  */
+
+
+
+body,ul,ol,dl,dt,dd,li,h1,h2,h3,h4,h5,h6,form,select,center,p,img, blockquote, cite, sub{ margin:0px; padding:0px;}
+
+body{ color:#000; font-family:"ËÎÌå"; font-size:12px; color:#000; }
+
+a{text-decoration:none;}
+
+a:hover{ text-decoration:underline}
+
+input,select{font-size:12px;line-height:16px;}
+
+ul,ol,li{list-style-type:none;}
+
+img{ border:0}
+
+textarea{ font-size:13px;}
+
+h3{ font-size:14px;}
+
+h3 a{color:#000}
+
+
+
+.ma{ margin:0 auto; zoom:1}
+
+
+
+.fl{ float:left}
+
+.fr{ float:right}
+
+.co{ clear:both; overflow:hidden;}
+
+
+
+.pa{ position:absolute}
+
+.pr{ position:relative}
+
+.tr{ text-align:right}
+
+.tc{ text-align:center}
+
+
+
+html{ background:url("../www_images/zhuanti/bg.png") #dff2ff left top repeat-x; height:100%;}
+
+body{ background:url("../www_images/zhuanti/bg_h1.jpg") center 35px no-repeat; height:100%;}
+
+/* top */
+
+.top{ height:35px; overflow:hidden;}
+
+.top strong a{ width:300px; height:35px; display:block; overflow:hidden;; text-indent:-99em; float:left}
+
+.top p{ float:right; line-height:35px; color:#CCC; font-size:12px; padding:0 20px;}
+
+.top p a{ padding:0 2px; color:#666;}
+
+	.top strong a{ background:url("../www_images/zhuanti/bg_no.png") no-repeat}
+
+	
+
+.w{ width:960px;}
+
+
+
+.header{ height:169px;}
+
+.header h1 a{ width:620px; height:169px; display:block; overflow:hidden; text-indent:-999em; }
+
+.header .add{ top:40px; right:0;/*color:#9cf;*/ color:#FFF; line-height:30px;}
+
+.header .add h2{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-weight:400; font-size:22px;}
+
+.header .add p, .header .add b{ font-size:14px;}
+
+.header .add b{ padding:0 10px; background:#036; position:absolute; width:80px; display:block; overflow:hidden; bottom:-30px; right:0; text-align:center}
+
+
+
+.main{ background:#FFF; padding:0 0 30px; margin-bottom:10px;}
+
+.main .nav{ background:url("../www_images/zhuanti/bg_no.png") 0 -60px repeat-x; height:50px; }
+
+.main .nav ul li{ float:left; padding:0 20px; line-height:50px;}
+
+.main .nav ul li.now{ width:160px; padding:6px 18px 0; text-align:center; background:url("../www_images/zhuanti/bg_no.png") 0 -140px no-repeat;  color:#006699;}
+
+.main .nav ul li a span.old{background:#69C; padding:2px 5px; margin-left:5px; color:#FFF; font-family:"ËÎÌå"; font-size:12px;}
+
+.main .nav ul li a span{ background:#C30; padding:2px 5px; margin-left:5px; color:#FFF; font-family:"ËÎÌå"; font-size:12px;}
+
+.main .nav ul li a span a:hover{ background:#F90; color:#FFF}
+
+.main .nav ul li{font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:16px;}
+
+.main .nav ul li a{ color:#039;}
+
+.main .nav ul li a:hover{ color:#000; text-decoration:none}
+
+.main .nav p{ position: absolute; right:10px; line-height:50px; font-size:14px; color:#C00;}
+
+.main .nav p b{ font-family:verdana,arial}
+
+.main .n{ padding:0px 25px 0; zoom:1; }
+
+.main .n h3{font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-weight:400; font-size:24px;}
+
+.main .n h3 span{ color:#C00;}
+
+.main .n  .text{ font-size:14px; color:#666; line-height:2em; padding:20px 0 10px;}
+
+.main .n1{ padding-bottom:10px; margin-bottom:20px; background:url("../www_images/zhuanti/n.png") center bottom no-repeat;}
+
+.main .n1 .text h4{font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";  font-size:20px; color:#000; line-height:2em; font-weight:600}
+
+.main .n1 .text h5{ color:#C30; font-size:14px;}
+
+.main .n .text p{ padding:5px 0;}
+
+.main .n1 .text p{ padding:5px 10px;}
+
+.main .n1 .text ul{ padding:5px 20px; color:#000;}
+
+.main .n2 h3{ padding-top:15px;}
+
+.main .n2 .pa{ bottom:0; right:0;}
+
+.main .n2 .text ul{ padding:10px 0;}
+
+.main .n2 .text ul li{}
+
+.main .n2 .text ul li a{ background:#666; color:#FFF; font-size:14px; padding:5px 10px; }
+
+.main .n2 .text ul li a:hover{ background:#090; text-decoration:none;}
+
+.main .n3 .text{ padding-left:510px;}
+
+.main .n3 .pa{ left:30px; top:50px;}
+
+.main .n4, .biao, .main .n3{ background:url("../www_images/zhuanti/n.png") center top no-repeat ; padding-top:30px;}
+
+.main .n4 .an{ height:100px; padding:20px 0 0 130px;}
+
+.main .n4 .an .fl{ padding-right:20px;}
+
+.main .n4 .an .fl a.b{ width:221px; height:87px; background:url("../www_images/zhuanti/bg_no.png") no-repeat; background-position:0 -220px ; display:block; overflow:hidden; margin-top:2px;}
+
+.main .n4 .an .fl a.b:hover{background-position: 0 -307px; margin:0;}
+
+.main .n4 .an .fl p{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:20px; color:#C30; padding:5px 0;}
+
+.main .n4 .an .fl p b{ font-size:30px; padding-right:10px; }
+
+
+
+.inner_top { padding:20px 25px; border-bottom:1px solid #CCC; box-shadow:#ccc 0px 1px 3px; -moz-box-shadow:#ccc 0px 1px 3px;}
+
+.inner_top h2 { clear:both; overflow:hidden;}
+
+.inner_top h2 img{ float:left; margin-top:5px;}
+
+/*.inner_top h2{ color:#C00; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-weight:400; font-size:24px;}*/
+
+.inner_top h2 p{  font-family:"ËÎÌå"; font-weight:bold; line-height:25px; padding-left:10px; font-size:14px; color:#000;}
+
+.inner_top h2 p span a{}
+
+.inner_top .an_1{ top:15px; right:0px;}
+
+.inner_top .an_1 .fl{ padding-right:10px;}
+
+.inner_top .an_1 .fl a.b{ width:143px; height:44px; background:url("../www_images/zhuanti/bg_no.png") no-repeat; background-position:-240px -220px ; display:block; overflow:hidden; }
+
+.inner_top .an_1 .fl a.b:hover{background-position: -240px -307px;}
+
+.inner_top .an_1 .fl p{font-size:12px; color:#C30; padding:2px 0;}
+
+.inner_top .an_1 .fl p b{ font-size:20px; padding-right:10px; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-weight:400; }
+
+
+
+
+
+.biao_n{ font-size:14px; width:600px; margin:20px 280px 0;}
+
+.biao_n td{ padding:5px;}
+
+.biao_n h4 { font-size:14px;  font-weight:400; padding:10px 0; color:#C30}
+
+.biao_n h4 b{font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:28px;} 
+
+.biao_n p{ font-size:12px;  color:#C30}
+
+.biao_n input, .biao_n textarea, .biao_n td input{ border-style:solid; border-width:1px; border-color:#999 #e8e8e8 #e8e8e8 #999;}
+
+.biao_n .submit{ width:75px; height:21px; color:#FFF; border:none; cursor:pointer; background:#F60;}
+
+.biao_n .submit:hover{ background:#C30;}
+
+.b{ cursor:pointer;}
+
+
+
+.siderLeft{ width:660px;}
+
+.siderRight{ width:300px; overflow:hidden;}
+
+.siderRight h3 a, .list h3{ line-height:40px;background:url("../www_images/zhuanti/sider_r_bg.png") 0 0 repeat-x; padding:0 10px 3px; display:block; margin:0 1px;}
+
+.list h3 { clear:both; overflow:hidden;}
+
+.list h3 span.site{ font-size:12px; color:#666; font-weight:400; float:right;}
+
+.list h3 span.site a{ color:#06C;}
+
+.view{ padding:10px;}
+
+.view h1{ font-family:"Î¢ÈíÑÅºÚ"; font-size:20px; text-align:center; padding:20px 0; border-bottom:1px dotted #CCC;}
+
+.view #zoom{ padding:10px; overflow:hidden; line-height:2em; font-size:14px; color:#666;}
+
+.ganyan{margin:8px 1px 9px;}
+
+.ganyan .img_li{ width:55px; height:55px;margin:0 10px 10px 0; }
+
+.ganyan .img_li img{ width:55px; overflow:hidden;}
+
+.ganyan li{ padding:10px 15px; zoom:1;}
+
+	.ganyan li:hover{ background:#FFF; -webkit-transition:background-color .3s linear;  -moz-transition:background-color .3s linear; transition:background-color .3s linear;}/* CSS3 */
+
+.ganyan li h4 a{ font-size:14px; color:#036; line-height:25px;}
+
+.ganyan li p{ color:#666; line-height:20px;}
+
+.ganyan li p a{ color:#00F;}
+
+
+
+.ganyan1{ padding:8px 0px 9px;}
+
+.ganyan1 center{ width:60px;}
+
+.ganyan1 .img_li{ width:55px; height:55px; overflow:hidden; padding-left:5px;}
+
+.ganyan1 .img_li img{ width:55px;}
+
+.ganyan1 li{ padding:10px; clear:both; overflow:hidden; border-bottom:1px dashed #CCC; }
+
+.ganyan1 li h4 a{ font-size:14px; color:#036; line-height:25px;}
+
+.ganyan1 li p{ color:#666; line-height:20px; background:#EEE; width:510px; float:right; padding:10px 25px 10px 45px; position:relative; }
+
+	.ganyan1 li p{ background:url("http://100.guzheng.cn/images/ganyan.png") #FFF 0 -500px no-repeat;}
+
+.ganyan1 li p a{ color:#00F;}
+
+.ganyan1 p span{ width:20px; height:15px; display:block; overflow:hidden; position:absolute; bottom:15px; right:5px; }
+
+.ganyan1 .ganyanHover h4 a{ color:#C00}
+
+.ganyan1 .ganyanHover p{background:url("http://100.guzheng.cn/images/ganyan.png") #fff4d9 0 0 no-repeat; color:#900  }
+
+.ganyan1 .ganyanHover p span{ background:url("http://100.guzheng.cn/images/ganyan.png") #fff4d9 -60px -485px no-repeat;}
+
+.tupian ul{ padding:10px; overflow:hidden; border-bottom:1px solid #CCC;}
+
+.tupian li{  float:left; margin:1px 0 0 1px; position:relative; overflow:hidden;}
+
+.tupian li center{height:159px; overflow:hidden;  }
+
+.tupian li,.tupian li p,.tupian li center{  width:159px; }
+
+.tupian li img{ height:159px;}
+
+.tupian li p{ position:absolute; bottom:0; line-height:2em; text-align:center; }
+
+.tupian li p a{color:#FFF; display:block;}
+
+.siderRight .more{ margin-top:40px;}
+
+.siderRight .more a{ display:block; margin:10px; text-align:center; background:#FFF; color:#666; padding:5px; border:1px dotted #CCC; text-decoration:none;}
+
+.siderRight .more a:hover{ background:#6CF; color:#FFF;}
+
+#an{}
+
+#biao{ overflow:hidden; display:none;}
+
+.foot{ text-align:center;  padding:10px 0; line-height:20px; font-family:Arial, Tahoma, Geneva, sans-serif; margin:10px auto 0; width:950px; color:#333}
+
+.foot a{ color:#039}
+
+.foot span{ padding:0 10px}
+
+.foot a{ padding:0 5px}
+
+.foot center a{ padding:10px; display:inline-block;}
+
+
+
+#contentfont{ padding:20px; line-height:2em; color:#666;}
+
+
+
+
+
+a{ outline:none;}
+
+#jquery-overlay {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	z-index: 90;
+
+	width: 100%;
+
+	height: 500px;
+
+}
+
+#jquery-lightbox {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	z-index: 100;
+
+	text-align: center;
+
+	line-height: 0;
+
+}
+
+#jquery-lightbox a img { border: none; }
+
+#lightbox-container-image-box {
+
+	position: relative;
+
+	background-color: #fff;
+
+	width: 250px;
+
+	height: 250px;
+
+	margin: 0 auto;
+
+}
+
+#lightbox-container-image { padding: 10px; }
+
+#lightbox-loading {
+
+	position: absolute;
+
+	top: 40%;
+
+	left: 0%;
+
+	height: 25%;
+
+	width: 100%;
+
+	text-align: center;
+
+	line-height: 0;
+
+}
+
+#lightbox-nav {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	height: 100%;
+
+	width: 100%;
+
+	z-index: 10;
+
+}
+
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+
+#lightbox-nav a { outline: none;}
+
+.lightbox-nav-btnPrev, .lightbox-nav-btnNext {
+
+	width: 49%;
+
+	height: 100%;
+
+	zoom: 1;
+
+	display: block;
+
+}
+
+.lightbox-nav-btnPrev { 
+
+	left: 0; 
+
+	float: left; cursor:url(http://100.guzheng.cn/cursor/pre.cur), pointer;
+
+}
+
+.lightbox-nav-btnNext { 
+
+	right: 0; 
+
+	float: right; cursor:url(http://100.guzheng.cn/cursor/next.cur), pointer;
+
+}
+
+#lightbox-container-image-data-box {
+
+	font: 10px Verdana, Helvetica, sans-serif;
+
+	background-color: #fff;
+
+	margin: 0 auto;
+
+	line-height: 1.4em;
+
+	overflow: auto;
+
+	width: 100%;
+
+	padding: 0 10px 0;
+
+}
+
+#lightbox-container-image-data {
+
+	padding: 0 10px; 
+
+	color:#666; 
+
+}
+
+#lightbox-container-image-data #lightbox-image-details { 
+
+	width: 70%; 
+
+	float: left; 
+
+	text-align: left; 
+
+	padding:1px 0;
+
+}	
+
+#lightbox-image-details-caption { font-weight: bold; color:#039; height:16px;	font-size:14px;
+
+}
+
+#lightbox-image-details-currentNumber {
+
+	display: block; 
+
+	clear: left; 
+
+	padding-bottom: 1.0em;	
+
+	font-size:12px;
+
+}			
+
+#lightbox-secNav-btnClose {
+
+	width: 66px; 
+
+	float: right;
+
+	padding-bottom: 0.7em;	
+
+}
+
+
+
+.hiheng{ background:#FFF; height:25px; clear:both; overflow:hidden; }
+
+.hiheng .lightbox-nav-btnNext, .hiheng .lightbox-nav-btnPrev{ width:80px; padding:5px; display:block; overflow:hidden; cursor:pointer; font-size:12px;}
+
+.hihengclose{ text-indent:-333em; cursor:pointer; position:absolute; z-index:99999999999999999; width:30px; height:30px; display:block; overflow:hidden; background:url(../www_images/zhuanti/tupian_close.png) 0 0 no-repeat;  _background:url(../www_images/zhuanti/tupian_close.png) 0 -30px no-repeat; top:-10px; right:-10px;}

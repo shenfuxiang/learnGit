@@ -1,0 +1,54 @@
+em{font-style:normal;}
+.mList1{ background:url(../www_images/huodong/mList1.png) repeat-y;}
+.music_main{ border-right:1px solid #ddd;  }
+.w_index_l{ _width:789px;}
+.active_baoming{ border: 8px solid #b80000; padding:10px; margin-top:10px; zoom:1;}
+.active_baoming  .active.one{ border-bottom:1px dashed #ddd;}
+.active_baoming  .active.one .tip{ top:0; left:0; background:url(../www_images/huodong/bm.png) no-repeat; width:92px; height:140px;  _background:url(../www_images/huodong/bm8.png) no-repeat;}
+ .active{ padding:10px 0; zoom:1; }
+ .active .avatar{ border:1px solid #bcbcbc;}
+ .active .avatar a{ width:198px; height:178px; display:block; overflow:hidden;}
+ .active .avatar a img{ width:198px;}
+
+ .active .content{ width:530px; _width:528px  padding:0 15px;}
+ .active .content h3{border-left:none; margin:10px 0 0; padding-left:0; }
+.active .content h3 a{ font-size:26px; color:#000; font-family:'ºÚÌå'; font-weight:300; line-height:28px; }
+ .active .content p{font-size:12px; color:#000;}
+ .active .content p.message{ background:#e98062; padding:5px 10px; color:#fff; margin:10px 0; }
+.active .content p.message span{ color:#fff;}
+ .active .content p.message em{ margin:0 20px 0 5px;}
+ .active .content p strong{ color:#000; padding-left:2em;}
+ .active .content a.more{ color:#e3a9a8; font-size:12px; }
+
+.active_all{ margin-top:10px; border:1px solid #ddd; }
+.active_all h2{ background:#b80000; color:#fff; font-size:18px; line-height:30px;padding:5px 10px; letter-spacing:0.2em; padding-left:15px;}
+.active_all .active{  border-bottom:1px dashed #ddd; margin:10px; _margin:5px;}
+.active_all .active .content{ }
+.active_all .active .content a.bm{ font-size:12px; background:#e98062; color:#fff; padding:3px 8px; margin-top:10px;}
+.active_all .active.huigu .content a.bm{ background:#cfcfcf;}
+.active_all .active .content p{ margin:10px 0;}
+.active_all .active .content p.js{ color:#6a6a6a;}
+.active_all .active .content p.js em b{ color:#000; margin-right:10px;}
+.active_all .active .content p.js em{ margin-right:70px; color:#b80000;  font-size:14px;} 
+.active_all .active .content a.more{ margin-bottom:10px; display:block;}
+.active_all  .active .avatar{ margin:8px;}
+
+
+.pages{padding-bottom: 10px;font-size: 12px;clear: both;overflow: hidden;zoom: 1;}
+.pages a, .pages span{
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+display: inline-block;
+text-decoration: none;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+Unknown property name.-moz-border-radius: 4px;
+padding: 0 8px;
+margin-right: 4px;
+line-height: 20px;
+height: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.pages a:link, .pages a:visited {color: #fff;background: #AFBAC5;}
+.pages span {background: #f60;color: #fff;}
+.pages a:hover{-webkit-transition:all 0.5s;transition:all 0.5s;background:#369; color:#fff}

@@ -1,0 +1,97 @@
+html, body, .boxmain, .m_view_music{ height:100%;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,input{margin:0;padding:0; }
+body{ font-family:'Myriad Set Pro','Roboto','STHeiti Light','Microsoft YaHei','SimHei','SimSun'; font-size:14px; background:#FFF;}
+h3{ font-size:16px;}
+ul li,dl li{list-style:none}
+fieldset,img,abbr,acronym{ border:none}
+img{-ms-interpolation-mode:bicubic}
+a{ color:#000; text-decoration:none; outline:none;}
+.fl{ float:left;}
+.fr{ float:right;}
+.pr{ position:relative;}
+.pa{ position:absolute;}
+.clear{ clear:both; }
+.w_index_l, .hot, .nav, .music_nav, .music_so, .music_main{ width:auto!important; _width:680px;}
+
+
+.nav{ height:40px; line-height:40px; background:#CF9B90; overflow:hidden;}
+.nav ul li{ float:left;} 
+.nav ul li.fr{ float:right; background:#CC8D80;}
+
+.nav ul li a{ color:#FFF; display:inline-block; padding:0 20px;}
+.nav ul li a:hover{ background:#CC8D80;}
+.hot{  background:#FFF4ED; }
+.hot .zhuti ul {}
+.hot .zhuti ul li{ min-height:160px; padding:10px 160px 10px 20px; position:relative; border-bottom:1px solid #F3DCD7; line-height:2em;}
+.hot .zhuti ul li .avatar{ right:20px; top:20px; width:100px; height:100px; overflow:hidden; border-radius:50px;}
+.hot .zhuti ul li .avatar img{ width:100px;}
+.hot .zhuti ul li b a{ font-size:24px; color:#900; font-weight:400;}
+.hot .zhuti ul li p{ color:#555;}
+.music_main{ margin:0 20px; line-height:1.5em; padding:0;}
+.music_first ul li, .music_index_zhuanji ul li{  font-size:14px!important;}
+.music_first .w_indxe_l3{ width:50%; margin-left: -1px; padding:0;}
+.music_first .w_indxe_l3 ul, .music_first .w_indxe_l3 h3,  .music_first .w_indxe_l3 p.inner, .music_first .w_indxe_l3 h4{ margin:10px;}
+.music_first .w_indxe_l3 h4, .music_first .w_indxe_l3 p.inner { margin:0 10px;}
+
+.pagelist{ padding-bottom:10px; font-size:12px; clear:both; overflow:hidden; zoom:1}
+.pagelist a,.pagelist span{-webkit-transition:all 0.5s;transition:all 0.5s; display:inline-block; text-decoration:none; -webkit-border-radius:4px;border-radius:4px;-moz-border-radius:4px; padding:0 8px; margin-right:4px; line-height:20px; height:20px; font-family:Arial, Helvetica, sans-serif; *font-family:"ËÎÌו"}
+.pagelist a:link, .pagelist a:visited{color:#fff;background:#AFBAC5; }
+.pagelist a:hover{-webkit-transition:all 0.5s;transition:all 0.5s;background:#369; color:#fff}
+.pagelist span{background:#f60; color:#fff}
+.pagelist  .a1{}
+.pagelist a.morex{color:#666; border-radius:4px; display:block; margin:0 15px 0 15px; height:30px; line-height:30px; background:#ddd}
+.pagelist a.morex:hover{ background:#f60; text-decoration:none; color:#fff}
+
+/* message */
+.music_comment{ padding-right:10px;}
+.music_comment h3{ font-size:14px; color:#F60; line-height:2em; margin-top:10px;}
+.music_comment .notlogin{ border:1px solid #CCC; padding:20px; text-align:center; color:#666; background-color:#F8F8F8;}
+.music_comment .notlogin a{ font-weight:bold; padding:0 5px;}
+.music_comment .islogin textarea{ border:1px solid #CCC; width:96%; padding:5px 2%; height:80px; line-height:2em; color:#444; }
+.islogin{}
+.islogin .title{ font-size:12px; line-height:2em;}
+.islogin .title #code{ width:80px; height:20px; line-height:20px; padding:0 5px; border:1px solid #CCC; border-color:#CCC #DDD #DDD #CCC;}
+.islogin .sub{ border:none; padding:5px 15px; text-align:center; color:#FFF; background:#F60; margin:0; height:25px; cursor:pointer;} 
+.islogin .sub:hover{ background:#F90;}
+
+.music_comment ul{ font-size:12px; padding:10px 0;}
+.music_comment ul li{ clear:both; overflow:hidden; margin-bottom:20px; padding-left:70px; position:relative; zoom:1; }
+.music_comment ul li .avatar{ position:absolute; top:0; left:0; width:40px;}
+.music_comment ul li .avatar, .music_comment ul li.hot  .moreComment .avatar{ padding:2px; border:1px solid #DDD;}
+.music_comment ul li .avatar a{ width:40px; height:40px; display:block; overflow:hidden;  background:#EEE;}
+.music_comment ul li .avatar a img{ width:40px;}
+.music_comment ul li .theComment{ border:1px solid #DDD; padding:0 10px 10px; zoom:1; }
+.music_comment ul li .theComment .inner{ padding:10px 0; color:#333;} 
+.music_comment ul li h4{ clear:both; overflow:hidden; padding:5px 0;  font-size:12px; line-height:1.5em; border-bottom:1px dotted #ccc;}
+.music_comment ul li h4 b{padding-right:10px}
+.music_comment ul li h4 span{ font-weight:400; }
+.music_comment ul li h4 span a{ float:right; margin-left:10px; padding:0 5px; display:inline-block; background:#F60; color:#FFF;}
+.music_comment ul li h4 span a.comment_no{ background:#CCC;}
+.music_comment ul li h4 span a:hover{ background:#C00; text-decoration:none;}
+.music_comment ul li .moreComment{ background:#EFEFEF;padding:10px; padding-left:60px; margin:5px 0 0;  position:relative;  zoom:1;}
+.music_comment ul li .moreinner{}
+.music_comment ul li .moreinner p{ padding:5px 0;  color:#666;}
+.music_comment ul li .moreComment .avatar{ top:5px; left:5px;}
+.music_comment ul li .moreComment h5{ font-size:12px;}
+.music_comment ul li .theComment .comment_reply{ margin-top:5px; line-height:2em; color:#999;}
+.music_comment ul li .theComment .comment_reply a{ float:right;}
+.music_comment ul li.hot .theComment, .music_comment ul li.hot .avatar{ border:2px solid #F60;}
+.music_comment ul li.hot .avatar{}
+.music_comment ul li.hot h4 b{ color:#F60; }
+.music_comment ul li .tip{ width:17px; height:17px; overflow:hidden; top:20px; _left:-17px;}
+.music_comment ul li .theComment .tip{ left:-16px;}
+.music_comment ul li.hot .theComment .tip{ left:-17px;}
+.music_comment ul li .theComment .tip{ background:url(../www_images/song/comment_tip.png) no-repeat;}
+.music_comment ul li.hot .theComment .tip{ background:url(../www_images/song/comment_tip_hot.png) no-repeat;}
+.music_comment .notlogin, .music_comment .islogin textarea{ background-image:url(../www_images/song/comment.png)}
+.music_comment ul li h4 span a{ -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;}
+.music_comment .avatar,.music_comment .avatar a{ -webkit-border-radius:24px!important; border-radius:24px!important; -moz-border-radius:24px!important; }
+
+.music_index_zhuanji{ height:230px;}
+.music_index_zhuanji ul li{ margin-bottom:20px;}
+
+@media screen and (max-width: 1000px){
+.site, .music_view_title, .music_view_inner, .viewmore, .mobiplay, .music_comment { padding:0!important; margin:0!important; border:none!important;}
+.site{ padding:10px!important; margin:10px 0!important; border:none; background:#EEE!important;}
+.music_view_panel{ display:block!important;}
+}

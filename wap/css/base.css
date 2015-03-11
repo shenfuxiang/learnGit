@@ -1,0 +1,64 @@
+body,ul,p,h1,h2,h3,h4,h5{margin:0;padding:0;}
+li{ list-style:none; }
+body{ background:#fff; text-align:left;font-family:STHeiti,Arial; color:#777; width:100%;}
+body, li, a{font-size:1em;}
+a{ text-decoration:none; color:#000}
+a{ outline:none;-webkit-tap-highlight-color: rgba(0,0,0,0);  line-height:24px;}
+h3{border-left:4px solid #C00; line-height:1em; margin:20px 0; color:#933; padding-left:5px;}
+.co{ clear:both; overflow:hidden;}
+header{ background:#990000; text-align:center; padding:15px 0; border-bottom:1px solid #300;}
+header img{ height:50px;}
+header p a{ color:#FFF; }
+header p a b{ display:none;}
+nav{ background:#EEE; padding:10px 0;  display:block; overflow:hidden; text-align:center; color:#CCC; border-bottom:1px solid #DDD;}
+nav a{ padding:2px 4px; margin:0 10px; color:#000;}
+nav a.now{ background:#900; color:#FFF; border-radius:3px;}
+.n{ border-bottom:1px solid #CCC; margin:0 10px 10px; padding:0 0 10px; }
+
+.waptop{ background:#700; height:40px; clear:both; overflow:hidden; font-size:12px; padding:0 10px; color:#C33;}
+.waptop,.waptop a{line-height:40px; }
+.waptop a{ color:#C66}
+.waptop .uc{ padding-left:30px; background:url(images/uc.jpg) left center no-repeat;}
+
+.menu{ text-align:center; color:#CCC;}
+.menu a{ width:6.5em; display:inline-block;  text-align:center; margin:5px 0; }
+.menu a.now{ color:#999; }
+footer{border-top:1px solid #600;}
+.obottom{ background:#990000;text-align:center}
+.obottom a{ color:#FFF;}
+.obottom .n{ padding-top:10px; border-color:#700; color:#800}
+.obottom .n a{ padding:0 5px;}
+.obottom .cr{ padding:10px 10px 20px;  color:#F90; }
+
+.page{ padding:10px;}
+.page a{ display:inline-block; padding:5px 10px; background:#999; color:#FFF; margin:0 10px;}
+
+nav, .menu p, .cityzm{display:box; display:-webkit-box;	display:-moz-box; 	display:-ms-box;	width:100%; overflow:hidden;}
+nav a, .menu p a, .cityzm a{box-flex:1; -moz-box-flex:1; -webkit-box-flex:1; -ms-box-flex:1;}
+.page{ background:#EEE;}
+.page a{-webkit-border-radius:20px; -moz-border-radius:20px; border-radius:20px;}
+
+		/* iPads (landscape) */
+		@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+			
+		}
+		/* iPads (portrait) */
+		@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+			
+		}
+		/* iPads */
+		@media screen and (min-device-width : 768px) and (max-device-width : 1024px){
+		body{ font-size:1.5em; line-height:1.8em;}
+		nav a{ margin:20px 30px; font-size:1.2em;}
+		header img{ height:auto;}
+		}
+		/* iphone */
+		@media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 2) {
+			body{ font-size:1em; }
+			.menu, .menu a{ font-size:14px;}
+		}
+.m {
+border-bottom: 1px solid #CCC;
+margin: 0 10px 10px;
+padding: 0 0 10px;
+}

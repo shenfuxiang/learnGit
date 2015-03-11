@@ -1,0 +1,162 @@
+/* MUSICBOX */
+
+.m_view_music{ width:440px; height:1700px;  background:#222; }
+
+.musicbox .guzhengplay, .musicbox .cover, .musicbox .guzhengplay .jp-interface{  height:400px;}
+
+.musicbox .guzhengplay{  height:400px;  background:#222; position:relative;  }
+
+.musicbox .cover{ z-index:5; }
+
+.musicbox .cover .coverbg{ height:390px; padding-bottom:10px; overflow:hidden; background-position: center center; background-repeat:no-repeat; display: list-item; background-size: cover; opacity:.9;z-index:10; }
+
+.musicbox .cover .coverimg, .jp-controls .jp-play, .jp-controls .jp-pause{ position:absolute; width:240px; height:240px; overflow:hidden; top:50%; left:50%; margin-left:-122px; margin-top:-152px;  }
+
+.musicbox .cover .coverimg{ box-shadow:#000 1px 2px 10px; border:5px solid #FFF; z-index:20; }
+
+.musicbox .cover .coverimg img{ width:240px;}
+
+/* guzhengplay */
+
+
+
+.jp-interface{ position:absolute; bottom:0; left:0; width:100%; z-index:30;} 
+
+.jp-interface ul.jp-controls a { display:block; overflow:hidden; text-indent:-9999px;} 
+
+
+
+
+
+ /* jindu */
+
+
+
+.jp-interface .jp-progress{ position:absolute;overflow:hidden; background-color:#646464;  bottom:0; height:15px; z-index:40px;}
+
+.jp-seek-bar { background-color:#494949;  height:100%; }
+
+.jp-play-bar {background-color:#F66;  width:0px; height:100%;}
+
+.jp-seeking-bg {	background: url("http://lib.guzheng.cn/m/img/seeking.gif"); }
+
+div.jp-progress {overflow:hidden; background-color:#ddd; width:100%; }
+
+/* time */
+
+
+
+.jp-audio .jp-time-holder {	position:absolute;bottom:20px; left:0; width:100%;}
+
+.jp-current-time, .jp-duration {font-size:.64em; padding:0 10px; color:#FFF; text-shadow:none;}
+
+.jp-time-holder .jp-current-time { float: left; }
+
+.jp-time-holder .jp-duration { float: right;}
+
+.jp-controls .jp-play, .jp-controls .jp-pause { padding:5px;}
+
+.jp-controls .jp-previous, .jp-controls .jp-next{ width:50px; height:50px; position:absolute; top:150px;}
+
+.jp-controls .jp-play { background: url("http://lib.guzheng.cn/m/img/jp-play.png") center center no-repeat;}
+
+.jp-controls .jp-pause { background:url("http://lib.guzheng.cn/m/img/jp-pause.png") center center no-repeat; display: none; }
+
+.jp-controls .jp-previous { left:0;	background: url("http://lib.guzheng.cn/m/img/jp-pre.png") center center no-repeat;}
+
+.jp-controls .jp-next { right:0; background: url("http://lib.guzheng.cn/m/img/jp-next.png") center center no-repeat; }
+
+/* jp-title */
+
+
+
+.jp-title{ position:absolute; width:100%; text-align:center; z-index:20; bottom:15px; left:0;  padding-top:20px; background:url("http://lib.guzheng.cn/m/img/bg_title.png") 0 bottom repeat-x; _background:none;} 
+
+.jp-title ul li{ color:#FFF; text-shadow:none; line-height:2em; }
+
+.jp-title ul li.title{ font-size:18px;}
+
+.jp-title ul li.singer{ opacity:.7;}
+
+/* bofangshunxu *
+
+
+
+/*.jp-toggles{ position:absolute; bottom:-50px; left:50%; margin-left:-145px; width:290px; height:30px; padding:10px 0; }
+
+.jp-toggles li{  float:left; display:block; overflow:hidden; font-size:14px;}*/
+
+
+
+.jp-toggles{ position:absolute; bottom:-120px;  width:100%; height:100px; padding:10px 0; }
+
+.jp-toggles li{ width:33%;  float:left; display:block; overflow:hidden; font-size:14px;}
+
+.jp-toggles li a{ line-height:80px; text-shadow:none; width:80px; height:80px;  border-radius:42px; background:#666; display:block; text-align:center; color:#FFF; box-shadow:#111 1px 1px 3px; border:2px solid #333; margin:5px auto;}
+
+.jp-toggles li a.now{ background:#E55050; text-shadow:#333 1px 1px 2px; box-shadow:none; border-color:#CCC;}
+
+/*.jp-toggles li a.jp-repeat{ background:#60BECF;}*/
+
+
+
+.jp-toggles li a.jp-repeat-off{background:#9F89D8 ;}
+
+.jp-volume-bar, .jp-stop, .jp-unmute, .jp-mute, .volume, .jp-mute, .jp-volume-max{ display:none!important;}
+
+/* playnav */
+
+
+
+.jp-nav, .jp-playlist{ background:#222; zoom:1;}
+
+.jp-nav ul{ clear:both; overflow:hidden; line-height:40px; border-top:1px solid #1B1B1B; }
+
+.jp-nav ul li{ color:#FFF; text-align:center; text-shadow:none; background:#1B1B1B; width:50%; float:left;}
+
+.jp-nav ul li a{ display:block; color:#999;}
+
+.jp-nav ul li.now a{ color:#FC5; background:#2C2C2C;}
+
+/* playlist */
+
+
+
+.guzhengplaylist{padding:120px 0 20px; background-color:#333; }
+
+.jp-playlist {	width:100%; color:#FFF; }
+
+.jp-type-single .jp-playlist { border-top:none; }
+
+.jp-playlist ul { list-style-type:none; 	margin:0; border-top: 1px solid #1D1D1D; overflow-y:auto; max-height:1000px;}
+
+.jp-playlist li {	border-bottom:1px solid #1D1D1D; position:relative;  }
+
+.jp-playlist li a span.singid{ width:20px; height:20px; display:inline-block; overflow:hidden; text-indent:-999em; position:absolute; top:10px; left:0;}
+
+.jp-playlist li div {	}
+
+.jp-playlist li:last-child { padding:5px 0 5px 20px; /* border-bottom:none;*/ }
+
+.jp-playlist li a.jp-playlist-item { display:block; padding:16px 40px 16px 10px; position:relative; z-index:10; color: #FFF; text-shadow:none; text-decoration: none; line-height:20px;  height:20px; overflow:hidden;}
+
+.jp-playlist ul li a.jp-playlist-current { background:#2C2C2C; color:#FC5;}
+
+.jp-playlist li:last-child{ padding:0;}
+
+.jp-playlist li:hover{ background:#333;}
+
+.jp-playlist li span.singer{ font-size:.7em; color:#999; padding-left:10px;}
+
+/* FAV */
+
+
+
+.jp-playlist .nologin{ padding:40px 20px; color:#CCC; line-height:2em; display:none;}
+
+.jp-playlist .nologin b{  font-size:1.5em;}
+
+.jp-playlist .nologin p a{ color:#FFF;}
+
+.jp-playlist .nologin p a.sub{ padding:5px 10px; background:#FC5; color:#222; margin-top:10px; display:inline-block; border-radius:5px;}
+

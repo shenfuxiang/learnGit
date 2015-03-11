@@ -1,0 +1,212 @@
+.nav_tv{  padding:13px 0 2px; background:url(../www_images/tv_liuxing/bg_nav.png) 0 0 no-repeat}
+.nav_tv ul li a{ text-decoration:none;}
+.bgnone{ background:none}
+.tvpresent{ background:url(../www_images/tv_liuxing/bg_tvpresent.png) center bottom no-repeat;}
+.tvinner ul.tvlist2 li{ width:250px; margin:10px 0 10px 13px;}
+.tvshow ul li{ padding:0 0 10px;}
+/* .tvinner ul li .avatar{ width:250px; height:155px; display:block; overflow:hidden;} 
+.tvinner ul li .avatar img{ height:155px;}*/
+.nav_tv ul li a{ padding:0 8px;}
+
+.yuyabanner{ display:none;}
+.tvinner_menu{ height:40px;  background:#f2f2f2;  border-bottom:1px solid #ddd;}
+.tvinner_menu ul{ clear:both; overflow:hidden; height:41px;}
+.tvinner_menu ul li.now,.tvinner_menu ul li{width: 30%;}
+.tvinner_menu ul li{  float:left; line-height:40px;  border-left:1px solid #ddd;  border-right:1px solid #ddd; text-align:center; margin-left:-1px;  cursor:pointer; height:41px;}
+.tvinner_menu ul li:hover{ background:#fff; height:40px;}
+.tvinner_menu ul li a{ font-size:20px; color:#666; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; }
+.tvinner_menu ul li a:hover{ text-decoration:none;}
+.tvinner_menu ul li.now{ background:#fff; z-index:999; }
+.tvinner_menu ul li.now:hover{background:#fff; height:41px;}
+.tvinner_menu ul li.now a{ color:#fd6666;}
+.tvinner_menu ul li a span{ font-size:12px; font-family:"ËÎÌå"; display:none;}
+.tvcontent{ display:none; width:100%;}
+.tvcontent.now{ z-index:999; display:block;}
+.tv_vip, .tv_vip img{ overflow:hidden;  background:#a6ccf4; width:100%; }
+
+
+.mainv .ybanner{ background:#232323;}
+.mainv .ybanner .login{width:1000px; margin:0 auto; background:#363636; }
+.mainv .ybanner .login .novip{ text-align:center; }
+.mainv .ybanner .login .novip p{  }
+.mainv .ybanner .login .novip p span{ line-height:3em; }
+.mainv .ybanner .login center{ font-size:14px; color:#fff; font-weight:bold; padding: 50px 0; }
+.mainv .ybanner .login center img{width:80px; height:80px; 
+-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%!important; }
+.mainv .ybanner .login a{ color:#ff99cc;}
+.tvinner .jxcontent ol li{float:left;width:320px; _width:300px;  margin:5px 20px 5px 10px;padding:6px 10px;  font-size:14px; color:#000;  background:#efefef;  font-weight:bold;}
+.tvinner .jxcontent ol li{ list-style:none;}
+.tvinner .jxcontent ol li span{ margin-right: 5px;}
+.tvinner .jxcontent  .avatar{ width:120px; height:120px;overflow: hidden;margin-right: 20px;}.tvinner .tvinner .jxcontent  .avatar img{ width:120px;}
+.tvinner .jxcontent .inner{ padding:20px;} 
+
+.tvinner .jxcontent h2{ font-size:24px; color:#000;  padding-bottom: 10px; line-height:25px;}
+.banner{ width:1002px; margin:0 auto;}
+.banner .jx h3{ font-size:22px; color:#fff; font-weight:500; margin-bottom:10px; font-family:"Î¢ÈíÑÅºÚ";}
+.banner .jx p{ color:#fff; font-size:14px;}
+.banner .jx{ top: 40px;left: 125px;}
+.banner .jm{left: 448px;}
+.banner .zd{ left: 750px;}
+.banner p.jj{ color:#ffddc1; font-size:14px;  position:relative; padding-top: 60px;}
+.banner p.jj span.mt{position:absolute; left:20px; }
+.banner p.jj span.zx{ position:absolute; right:20px;}
+.banner p.jj span.zx em{ font-size:24px;}
+.banner p.jj a img{ margin:-25px 380px;}
+.ybanner .banner p.jj a img{ margin:-25px 380px;}
+.banner p.jj .m{ bottom:96px; left:400px; color:#ff6600; font-family:"Î¢ÈíÑÅºÚ"; font-size:40px; font-weight:600; height:23px; line-height:40px;}
+.subbanner{height:190px; background:#2b2b2b;}
+.subbanner .jx ,.subbanner .jm,.subbanner .zd{ top:30px;}
+.subbanner p.jj{ color:#fff;}
+.subbanner p.jj span.zx em ,.subbanner p.jj span.zx strong{ color:#ff99cc;}
+
+.tv_vip center{  background:#4a7aab; color:#FFF; padding:10px; font:400 20px/2em verdana,'Î¢ÈíÑÅºÚ',arial;}
+
+/* sider*/
+
+.m_guzhengbox{ padding-top:10px;}
+.m_guzhengbox, .m_login{ margin:0 5px 10px;}
+.m_guzhengbox a, .m_login a{ width:190px; height:120px; display:block; overflow:hidden; text-indent:-333em;}
+.m_user{ padding:0 10px;}
+.m_user_avatar{}
+.m_user_avatar .avatar{ width:70px; height:70px; display:block; overflow:hidden;}
+.m_user_avatar .avatar img{ width:70px;}
+.m_user_avatar .title{ width:100px; padding-left:10px;}
+.m_user_avatar .title h6{ font-size:20px; font-weight:400; color:#F60; padding:10px 0; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";}
+.m_user_avatar .title p{ font-size:12px; }
+.m_user_avatar .title p a{ color:#06C; text-decoration:underline; margin-right:10px;}
+.m_user_center{ width:190px; margin-left:-10px; padding:10px 0;}
+.m_user_center li{ float:left;}
+.m_user_center li a{color:#06C; text-decoration:none; text-align:center; padding:0 10px; border-left:1px solid #DDD;}
+.m_user_center li a:hover em{ color:#F60;}
+.m_user_center li a, .m_user_center li a em, .m_user_center li a span{ display:block;}
+.m_user_center li a em{  font-family: Verdana,Arial;}
+.m_user_center li a span{ font-size:12px; color:#666;}
+.m_sider{ margin:0 10px; padding:10px 0; border-top:1px dotted #DDD;}
+.m_sider h3{ font-size:14px; color:#000; line-height:2em;}
+.m_sider h3 a{ color:#F60;}
+.m_sider h3 span{ color:#999; font-weight:400; padding-left:5px;}
+.m_sider ul{ font-size:12px;}
+.m_sider ul li{ padding:5px 0; position:relative; color:#666;}
+.m_sider ul li .panel{ right:0; top:6px;}
+.m_sider .more{ margin-top:5px;}
+.m_sider .more a{ font-size:12px; display:block;background:#CCC; color:#FFF; text-align:center;}
+.m_sider .more a:hover{ background:#9C9C9C; color:#FFF; text-decoration:none;}
+.m_guzhengbox{ display:none;}
+
+.co{ clear:both; overflow:hidden;}
+
+/**/
+.lx_xs{}
+.lx_xs .tv_n{ width:50%; _width:49.5%;}
+.lx_xs .tv_n p{ margin:10px; overflow:hidden; padding:10px;}
+
+.lxlist{ overflow:hidden; }
+.lxlist li{ border-top:1px solid #ddd; width:50%; _width:49.5%; float:left; height:360px; overflow:hidden;}
+.lxlist li .inner{ padding:20px;}
+.lxlist li .title a{ font:400 22px/22px "Î¢ÈíÑÅºÚ","ºÚÌå"; padding:0 0 15px; display:block; text-decoration:none; color:#000}
+.lxlist li .title a span{ background:#f66; font:400 12px/22px Arial; float:left; padding:0 10px; color:#FFF; margin-right:10px; border-radius:3px;}
+.lxlist li:hover { background:#F2F2F2;}
+.lxlist li:hover .title a{ color:#F33;}
+.lxlist li:hover .title a span{ background:#F33;}
+.lxlist li .tv_n{ padding-left:250px; margin-top:10px; background:#F2F2F2;}
+.lxlist li .tv_n .avatar{ width:250px; display:block; overflow:hidden; left:0; top:0;}
+.lxlist li .tv_n, .lxlist li .tv_n .avatar, .lxlist li .avatar img{height:155px; }
+.lxlist li .avatar:hover img, .lxlist li .avatar:hover img{-webkit-transform:scale(1.3); -moz-transform:scale(1.3);-o-transform:scale(1.3); -webkit-transition:all 1.0s;transition:all 1.0s; }
+.lxlist li .tv_n p{ text-align:center; font-size:14px; border-left:1px solid #FFF;:1px; }
+.lxlist li .tv_n p a, .lxlist li .tv_n p a:hover{ display:block; overflow:hidden; text-decoration:none;}
+.lxlist li .tv_n b, .lxlist li .tv_n span a{ display:block; border-bottom:1px solid #FFF;}
+.lxlist li .tv_n b a{ background:#ddd; color:#777; height:34px; line-height:34px;}
+.lxlist li .tv_n b a:hover{ background:#666; color:#FFF;}
+.lxlist li .tv_n span a{height:60px; line-height:60px; }
+.lxlist li .tv_n span.none{ background:#EEE;}
+
+.lxlist li  .inner blockquote{ background: #F2F2F2; padding: 10px;
+color: #666; line-height: 2em; font-size:12px; margin-top:10px; }
+
+/* version */
+.lxlist li span.lx_0 a, .lx_xs .lx_0 p{ background:#dff7bb; color:#3c5b13;}
+.lxlist li span.lx_0 a:hover{ background-color:#84c04c; color:#FFF;}
+
+.lxlist li span.lx_1 a, .lx_xs .lx_1 p{ background:#fbf3a9; color:#915e0f;}
+.lxlist li span.lx_1 a:hover{ background-color:#e4a311; color:#FFF;}
+
+/* background */
+.lxlist.bg{background: url(../www_images/tv_liuxing/bg_ddd.png) 50% top repeat-y;}
+
+
+
+.tvlist2 li .label { text-align:center; font-size:14px;  overflow:hidden; clear:both; background:#ddd;  }
+.tvlist2 li .label  a, .tvlist2  li .label a:hover{ display:block; overflow:hidden; text-decoration:none;}
+.tvlist2 li .label b, .tvlist2  li .label span a{ display:block; border-bottom:1px solid #FFF; border-top:1px solid #FFF;float:left;border-left:1px solid #FFF; margin-left:-1px;}
+.tvlist2 li .label b a{ background:#ddd; color:#777; height:34px; line-height:34px;}
+.tvlist2 li .label b a:hover{ background:#666; color:#FFF;}
+.tvlist2 li .label span a,.tvlist2 li .label b a{height:40px; line-height:40px; }
+.tvlist2 li .label span.none{ background:#EEE;}
+.tvlist2 li span.lx_0 a, .tvlist2 .lx_0 p{ background:#dff7bb; color:#3c5b13;}
+.tvlist2 li span.lx_0 a:hover{ background-color:#84c04c; color:#FFF;}
+.tvlist2 li span.lx_1 a{ background:#fbf3a9; color:#915e0f;}
+.tvlist2 li span.lx_1 a:hover{ background-color:#e4a311; color:#FFF;}
+.label.n3{ width:250px; }
+.label.n3 span a,.label.n3 b{ width:33%; }
+#container{ position:relative;}
+#container .newtip{ background:url(../www_images/tv_liuxing/newtip.png) no-repeat; width:75px; height:75px; position:absolute; z-index:30; left:15px; }
+
+/* ½ÚÄ¿Ô¤¸æ */
+.tv_lx_shiting{ border-top:1px solid #DDD; margin-top:60px;}
+.tv_lx_shiting h3 span{ padding-left:20px; font:400 18px/1em "Î¢ÈíÑÅºÚ","ºÚÌå"; color:#666  }
+.tv_lx_shiting ul li .avatar b{ position:absolute; z-index:9999; width:80px; height:35px; line-height:35px; background:#333; color:#ccc; text-align:center; left:85px; top:60px; cursor:pointer;}
+.tv_lx_shiting ul li .avatar b{ box-shadow:#333 1px 1px 5px; border-radius:5px;}
+.tv_lx_shiting ul li .avatar:hover b{ background:#000; color:#FFF;} 
+.tv_lx_shiting ul li .avatar:after{ background:none}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {	
+
+
+	.nav_tv .tv_search, .nav_tv .mlink, .mainv .shengming, #fx_small, .tvside .tvpeople, .fx_video, .tvtop, .banner .jx, .w_sider{display:none!important;}
+	.tvinner, h1.logo, .tvpresent.fr ,.tvside .tvshow,.tvside{ float:none!important;}
+	.tvinner, .tvtop,  .tvtop img, .nav_tv, .tvinner ul.tvlist1 li .inner,.tvside,.ybanner,.banner,.banner p.jj,.ybanner,.label.n3{width:auto!important}
+
+	.banner{ background:none; height:auto!important;}
+	.banner p.jj{ background:#76553a; text-align:center;  height:250px;padding-top: 20px;}
+	.banner p.jj span.mt,.banner1{ display:none;}
+	.banner p.jj span.mt{}
+	.banner p.jj span.zx,.banner p.jj span.mt{ display:block;position:static!important; }
+	.banner p.jj a img{ margin:0 auto!important;  }
+	.ybanner p.jj{ background:#2b2b2b;}
+	.mainv .ybanner .login .novip{ width:100%}
+	.mainv .ybanner .login{ width:100%}
+	.mainv .ybanner .login .novip p{ padding-left:0px;}
+	.tvinner ul.tvlist1 li .inner{ width:450px!important;}
+	.tvinner ul.tvlist2 li, .tvinner ul.tvlist2 li .avatar, .tvinner ul.tvlist2 li .avatar img{ width:230px!important;}
+	.tvinner ul.tvlist2 li .avatar{ height:149px!important;}
+}
+
+@media screen and (max-width: 750px) {	
+	.tvinner_menu ul li span{ display:none!important;}
+	.yuyabanner{ display:block;}
+	.yuyabanner:hover{ background:#2ba1d8;}
+	.yuyabanner{ background:#0073a9; font-size:30px;  padding:5px;  }
+	.yuyabanner a{ color:#FFF; font:400 26px/1.5em "Î¢ÈíÑÅºÚ","ºÚÌå"; }
+	.yuyabanner a:hover{ text-decoration:none;}
+	.yuyabanner a em{ font-size:18px; font-style:normal;}
+	.yuyabanner span{ display:block; text-align:center;}
+	.yuyabanner .more { font-size:14px; background:#036; padding:2px 5px; box-shadow:#333 1px 1px 1px; }
+	.tv_vip img{ width:150%; margin-left:-25%; }
+	.lxlist.bg{ background:none;}
+	.lxlist li{ width:100%; float:none;}
+	.lxlist li .tv_n{ margin-top:10px; background:#F2F2F2;}
+}
+
+@media screen and (max-width: 520px) {
+	.lxlist.bg{ background:none;}
+	.lxlist li{ width:100%; float:none;}
+	.lxlist li .tv_n{ padding-left:0; margin-top:10px; background:#F2F2F2; height:auto;}
+	.lxlist li .avatar{ display:none!important;}
+	.renwucontent img{ width:100%!important; height:auto!important;}
+	.tvinner ul.tvlist1 li .inner{ width:auto!important; margin-top:10px;}
+}

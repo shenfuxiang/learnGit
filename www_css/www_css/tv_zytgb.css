@@ -1,0 +1,86 @@
+/* yangbanke */
+.nav_tv{  padding:13px 0 2px; background:url(../www_images/tv_zytgb/bg_nav.png) 0 0 no-repeat}
+.nav_tv ul li a{ text-decoration:none;}
+.bgnone{ background:none}
+.tvinner ul.tvlist2 li{ width:250px; margin:10px 0 10px 13px;}
+.tvshow ul li{ padding:0 0 10px;}
+.yuyabanner{ display:none;}
+.tvpresent{background: #333; line-height:2em; height:260px;}
+
+
+/* mulu */
+.mulubox{ position:relative;  overflow:hidden;}
+#nav_up,#nav_down, .mulubox .mulu{ position:absolute; }
+#nav_up,#nav_down{ width:100%; height:42px; text-align:center; display:block; overflow:hidden; cursor:pointer; z-index:1000; display:none;}
+.mulubox .mulu{top:0; z-index:10;  }
+.mulubox #nav_up{top:0; display:none;}
+#nav_down{ bottom:0px;}
+ul.mulu{ margin:10px; clear:both; overflow:hidden;}
+ul.mulu li{float:left; margin:3px; font-size:12px; padding:0;}
+ul.mulu li a{display:inline-block; padding:3px; background:#FFF; color:#000; border:1px solid #CCC;}
+ul.mulu li a:hover{ background:#F60; text-decoration:none; color:#fff; border-color:#F60;}
+ul.mulu li span{display:inline-block; padding:3px; background:#EEE; border:1px  solid #C0C0C0; color:#666;}
+ul.mulu li span,ul.mulu li a{ width:70px; text-align:center;}
+ul.mulu li.one a{ width:155px;}
+
+/* neice inner */
+.neice1{ text-align:center; background:#F3DBC0;}
+.neice1 h3{ font:bold 40px/2.5em arial,"Hiragino Sans GB","Microsoft Yahei","ºÚÌå"; color:#663300; padding:0; margin:0;}
+.neice1 p{font:400 14px/2em "Î¢ÈíÑÅºÚ","ËÎÌå"; }
+.neice1 .sub{ padding:20px 0;}
+.neice1 .sub a{ width:300px; background:#600; color:#FFF; padding:20px 40px; font:400 26px/3em "Î¢ÈíÑÅºÚ","ºÚÌå"; border-radius:40px;}
+.neice1 .sub a:hover{ background:#c00; text-decoration:none; box-shadow:#666 1px 2px 10px;}
+
+/* BJZM */
+.bjzm h3 a:hover{ text-decoration:none;}
+.bjzm{ padding:0 ;}
+.bjzm .inner{ padding:10px 20px 20px 180px; zoom:1; }
+.bjzm .inner .avatar{ left:20px; top:10px; width:160px; height:160px; overflow:hidden; }
+.bjzm .inner .n{ padding-left:20px;}
+.bjzm .inner .n strong{ padding-bottom:14px; display:block;}
+.bjzm .inner .n strong a{ font:400 22px/1em "Î¢ÈíÑÅºÚ","ºÚÌå";}
+.bjzm .inner .n strong span a{ font-size:14px;}
+.bjzm .inner .n p{ color:#666; background:#EFEFEF; padding:10px; line-height:1.8em; }
+
+
+.mainv .ybanner{ background:#232323;}
+.mainv .ybanner .login{width:1000px; margin:0 auto; background:#363636; }
+.mainv .ybanner .login .novip{ text-align:center; }
+.mainv .ybanner .login .novip p{   }
+.mainv .ybanner .login .novip p span{ line-height:3em; }
+.mainv .ybanner .login center{ font-size:14px; color:#fff; font-weight:bold; padding: 50px 0; }
+.mainv .ybanner .login center img{width:80px; height:80px; -webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%!important;}
+.mainv .ybanner .login a{ color:#ff9900;}
+.ybanner .banner p.jj a{ right:330px; bottom:39px; bottom:45px!ie;  _right:329px;}
+
+@media screen and (max-width: 1000px) {	
+
+.mainv .shengming{}
+.tvinner ul.tvlist1 li .inner{ width:450px!important;}
+.tvinner ul.tvlist2 li, .tvinner ul.tvlist2 li .avatar, .tvinner ul.tvlist2 li .avatar img{ width:230px!important;}
+.tvinner ul.tvlist2 li .avatar{ height:149px!important;}
+}
+@media screen and (max-width: 750px) {	
+.ybanner{width:auto!important}
+.ybanner p.jj{ background:#2b2b2b;}
+.ybanner p.jj{ background:#2b2b2b;}
+.mainv .ybanner .login .novip{ width:100%}
+.mainv .ybanner .login{ width:100%}
+.mainv .ybanner .login .novip p{ padding-left:0px;}
+.yuyabanner{ display:block;}
+.yuyabanner:hover{ background:#2ba1d8;}
+.yuyabanner{ background:#0073a9; font-size:30px;  padding:5px;  }
+.yuyabanner a{ color:#FFF; font:400 26px/1.5em "Î¢ÈíÑÅºÚ","ºÚÌå"; }
+.yuyabanner a:hover{ text-decoration:none;}
+.yuyabanner a em{ font-size:18px; font-style:normal;}
+.yuyabanner span{ display:block; text-align:center;}
+.yuyabanner .more { font-size:14px; background:#036; padding:2px 5px; box-shadow:#333 1px 1px 1px; }
+}
+@media screen and (max-width:520px) {
+.bjzm .inner{ padding:180px 20px 20px 20px; }
+.bjzm .inner .avatar{ padding-left:20px;}
+.neice .sub a{ width:80%; border-radius:40px; font-size:20px; }
+.neice1 .sub{ padding:20px 0;}
+.renwucontent img{ width:100%!important; height:auto!important;}
+.tvinner ul.tvlist1 li .inner{ width:auto!important; margin-top:10px;}
+}

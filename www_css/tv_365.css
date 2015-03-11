@@ -1,0 +1,176 @@
+.co{ clear:both; overflow:hidden; zoom:1;}
+.w_sider{ width:200px;}
+.nav_tv {padding: 13px 0 2px;background:url(../www_images/20130906_365/bg_nav.png) #C00 0 0 no-repeat;}
+.tvpresent {background:url(../www_images/20130906_365/ybg1.png) center bottom no-repeat;}
+.tvpresent .inner{ border-bottom:none !important; line-height:1.8em;}
+.banner{ width:1002px; margin:0 auto;}
+.tvinner ul.tvlist2 li{ width:180px; vertical-align:top; margin: 10px 0 10px 15px; _display:inline; }
+.tvinner ul.tvlist2 li a{  overflow:hidden; display:block;}
+.tvinner ul.tvlist2 li a img{  height:180px;}
+.tvinner ul.tvlist2 li .inner .title a{ height:3em; }
+.tvinner ul li .inner .abs span.open{ background:#74ba51; font:400 12px/18px Arial; float:left; padding:0 5px; color:#FFF; border-radius:3px;}
+.tvinner ul li .inner .abs span.vip{background:#F99;font:400 12px/18px Arial; float:left; padding:0 5px; color:#FFF; margin-right:10px; border-radius:3px;}
+.mulubox{ position:relative; height:1000px; overflow:hidden;}
+#nav_up,#nav_down, .mulubox .mulu{ position:absolute;}
+#nav_up,#nav_down{ width:100%; height:42px; text-align:center; display:block; overflow:hidden; cursor:pointer; z-index:1000}
+.mulubox .mulu{top:0; z-index:10;  }
+.mulubox #nav_up{top:0; display:none;}
+#nav_down{ bottom:0px;}
+ul.mulu{ margin:10px; clear:both; overflow:hidden;}
+ul.mulu li{float:left; margin:3px; font-size:12px;}
+ul.mulu li a{display:inline-block; padding:3px; background:#FFF; color:#000; border:1px solid #CCC;}
+ul.mulu li a:hover{ background:#F60; text-decoration:none; color:#fff; border-color:#F60;}
+ul.mulu li span{display:inline-block; padding:3px; background:#EEE; border:1px  solid #C0C0C0; color:#666;}
+ul.mulu li span,ul.mulu li a{ width:70px; text-align:center;}
+ul.mulu li.one a{ width:155px;}
+
+
+.pagelist{ padding-bottom:10px; font-size:12px; clear:both; overflow:hidden; zoom:1}
+.pagelist a,.pagelist span{-webkit-transition:all 0.5s;transition:all 0.5s; display:inline-block; text-decoration:none; -webkit-border-radius:4px;border-radius:4px;-moz-border-radius:4px; padding:0 8px; margin-right:4px; line-height:20px; height:20px; font-family:Arial, Helvetica, sans-serif; *font-family:"ËÎÌå"}
+.pagelist a:link,.pagelist a:visited{color:#fff;background:#AFBAC5; }
+.pagelist a:hover{-webkit-transition:all 0.5s;transition:all 0.5s;background:#369; color:#fff}
+.pagelist span{background:#f60; color:#fff}
+.pagelist  .a1{}
+.pagelist a.morex{color:#666; border-radius:4px; display:block; margin:0 15px 0 15px; height:30px; line-height:30px; background:#ddd}
+.pagelist a.morex:hover{ background:#f60; text-decoration:none; color:#fff}
+#fx_small{width: 1000px;margin: 10px auto;}
+
+
+
+
+.mainv .ybanner{ background:#232323;}
+.mainv .ybanner .login{width:1000px; margin:0 auto; background:#363636; }
+.mainv .ybanner .login .novip{ text-align:center; }
+.mainv .ybanner .login .novip p{  }
+.mainv .ybanner .login .novip p span{ line-height:3em; }
+.mainv .ybanner .login center{ font-size:14px; color:#fff; font-weight:bold; padding: 50px 0; }
+.mainv .ybanner .login center img{width:80px; height:80px; -webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%!important;}
+.mainv .ybanner .login a{ color:#ff9900;}
+.tvinner .jxcontent ol li{float:left;width:320px; _width:300px;  margin:5px 20px 5px 10px;padding:6px 10px;  font-size:14px; color:#000;  background:#efefef;  font-weight:bold;}
+.tvinner .jxcontent ol li{ list-style:none;}
+.tvinner .jxcontent ol li span{ margin-right: 5px;}
+.tvinner .jxcontent  .avatar{ width:120px; height:120px;overflow: hidden;margin-right: 20px;}.tvinner .tvinner .jxcontent  .avatar img{ width:120px;}
+.tvinner .jxcontent .inner{ padding:20px;} 
+
+.tvinner .jxcontent h2{ font-size:24px; color:#000;  padding-bottom: 10px; line-height:25px;}
+
+
+.banner{ background:url(../www_images/20130906_365/banner3.png) no-repeat; height:290px;}
+.banner .jx h3{ font-size:22px; color:#fff; font-weight:500; margin-bottom:10px; font-family:"Î¢ÈíÑÅºÚ";}
+.banner .jx p{ color:#fff; font-size:14px;}
+.banner .jx{ top: 40px;left: 125px;}
+.banner .jm{left: 448px;}
+.banner .zd{ left: 750px;}
+.banner p.jj{ color:#ffddc1; font-size:14px; bottom:-11px; margin-left:40px; height:100px;}
+.banner p.jj span.zx{ margin-left:340px;}
+.banner p.jj span.zx em{ font-size:24px;}
+.banner p.jj a{ right:328px; bottom:38px; bottom:44px!ie; _right:327px;}
+.ybanner .banner p.jj a{ right:343px; bottom:40px; bottom:45px!ie;  _right:341px;}
+.banner p.jj .m{ bottom:96px; left:400px; color:#ff6600; font-family:"Î¢ÈíÑÅºÚ"; font-size:40px; font-weight:600; height:23px; line-height:40px;}
+.subbanner{background:url(../www_images/20130906_365/banner4.png) no-repeat; height:290px;}
+.subbanner .jx ,.subbanner .jm,.subbanner .zd{ top:30px;}
+.subbanner p.jj{ bottom:-1px; color:#fff;}
+.subbanner p.jj span.zx em ,.subbanner p.jj span.zx strong{ color:#f90;}
+
+
+
+
+
+
+.tvtop1 .tvpresent { background:url(../www_images/20130906_365/ybg.png) center bottom no-repeat; }
+.tvtop1 .tvinner{ background:#2a2a2a;}
+.tvtop1 .tvinner ul.tvlist2 li .inner{ background:#242424; }
+.tvtop1 .tvinner ul.tvlist2 li .inner .title a{ color:#fff;}
+.tvtop1 .tvinner ul.tvlist2{ border-bottom:none;}
+.tvtop1 .tvinner ul.tvlist2 li:hover{  box-shadow:#000 0 1px 1px;}
+.tvtop .tvpresent .inner a{ color:#ccc;}
+.banner2{ background:#946a45;  height: 280px; margin-top:2px;}
+.banner1{background:url(../www_images/20130906_365/banner5.png) 0 bottom no-repeat; height:160px;}
+.banner2 p.jj{ background:url(../www_images/20130906_365/banner_365.jpg) no-repeat; height:120px; z-index:9999999999999999;}
+.banner2 p.jj{padding-left: 40px;line-height: 125px; margin:0px 5px; }
+.banner2 p.jj a{ top:11px;right: 375px;}
+.banner2 .jx{ top:160px;}
+.w_content{
+
+width: 599px!important; border-right:1px solid #ddd;
+
+}
+
+
+/* sider*/
+
+.m_guzhengbox{ padding-top:10px;}
+.m_guzhengbox, .m_login{ margin:0 5px 10px;}
+.m_guzhengbox a, .m_login a{ width:190px; height:120px; display:block; overflow:hidden; text-indent:-333em;}
+.m_user{ padding:0 10px;}
+.m_user_avatar{}
+.m_user_avatar .avatar{ width:70px; height:70px; display:block; overflow:hidden;}
+.m_user_avatar .avatar img{ width:70px;}
+.m_user_avatar .title{ width:100px; padding-left:10px;}
+.m_user_avatar .title h6{ font-size:20px; font-weight:400; color:#F60; padding:10px 0; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå";}
+.m_user_avatar .title p{ font-size:12px; }
+.m_user_avatar .title p a{ color:#06C; text-decoration:underline; margin-right:10px;}
+.m_user_center{ width:190px; margin-left:-10px; padding:10px 0;}
+.m_user_center li{ float:left;}
+.m_user_center li a{color:#06C; text-decoration:none; text-align:center; padding:0 10px; border-left:1px solid #DDD;}
+.m_user_center li a:hover em{ color:#F60;}
+.m_user_center li a, .m_user_center li a em, .m_user_center li a span{ display:block;}
+.m_user_center li a em{  font-family: Verdana,Arial;}
+.m_user_center li a span{ font-size:12px; color:#666;}
+.m_sider{ margin:0 10px; padding:10px 0; border-top:1px dotted #DDD;}
+.m_sider h3{ font-size:14px; color:#000; line-height:2em;}
+.m_sider h3 a{ color:#F60;}
+.m_sider h3 span{ color:#999; font-weight:400; padding-left:5px;}
+.m_sider ul{ font-size:12px;}
+.m_sider ul li{ padding:5px 0; position:relative; color:#666;}
+.m_sider ul li .panel{ right:0; top:6px;}
+.m_sider .more{ margin-top:5px;}
+.m_sider .more a{ font-size:12px; display:block;background:#CCC; color:#FFF; text-align:center;}
+.m_sider .more a:hover{ background:#9C9C9C; color:#FFF; text-decoration:none;}
+.m_guzhengbox{ display:none;}
+.m_login a{background:url(../www_images/song/bg_.png) -300px -30px no-repeat;}
+.m_login a:hover{background:url(../www_images/song/bg_.png) -300px -150px no-repeat;}
+
+
+
+
+.main.mList{ background:url(../www_images/song/mList.png) repeat-y;}
+.w_sider .tvshow h3 {
+
+background: url(../www_images/tv_liuxing/bg_aside.png) right -60px no-repeat;
+
+}
+.bt{ border-top:1px solid #ddd;}
+.tvinner ul li .avatar{ width:180px; height:180px;}
+.tvinner ul li .avatar img{ width:180px;}
+
+
+
+@media screen and (max-width: 1000px) {	
+
+	.nav_tv .tv_search, .nav_tv .mlink, .mainv .shengming, #fx_small, .tvside .tvpeople, .fx_video, .tvtop, .banner .jx, .w_sider{display:none!important;}
+	.tvinner, h1.logo, .tvpresent.fr ,.tvside .tvshow,.tvside{ float:none!important;}
+	.tvinner, .tvtop,  .tvtop img, .nav_tv, .tvinner ul.tvlist1 li .inner,.tvside,.ybanner,.banner,.banner p.jj,.ybanner{width:auto!important}
+
+
+	.banner{ background:none; height:auto!important;}
+	.banner p.jj{ background:#76553a; position:static; text-align:center;  height:auto; margin-left:0px;}
+	.banner p.jj span.mt,.banner1{ display:none;}
+	.banner p.jj span.zx{ display:block; line-height:100px; margin-left:0px;}
+	.banner p.jj a{  width:270px; position:static;}
+	.ybanner p.jj{ background:#2b2b2b;}
+	.mainv .ybanner .login .novip{ width:100%}
+	.mainv .ybanner .login{ width:100%}
+	.mainv .ybanner .login .novip p{ padding-left:0px;}
+	#nav_up,#nav_down{ display:none;}
+	.mulubox{ }
+	.tvside  .tvshow h3{background:#fff; border-bottom:1px solid #ddd;}
+	.tvinner ul.tvlist2 li, .tvinner ul.tvlist2 li .avatar, .tvinner ul.tvlist2 li .avatar img{ width:170px!important;}
+	.tvinner ul.tvlist2 li .avatar, .tvinner ul.tvlist2 li .avatar img{ height:170px!important;}
+	}
+
+
+
+
+
+

@@ -1,0 +1,263 @@
+@charset "gb2312";
+
+/* CSS Document */
+
+
+
+.ul_flimg{ margin-bottom:10px}
+
+.ul_flimg li{ border-bottom:1px dotted #ddd; padding:10px; clear:both; overflow:hidden; zoom:1}
+
+.ul_flimg li span.vimg{ float:left; margin-right:10px}
+
+.ul_flimg li span.title{ display:block; float:right; width:146px}
+
+.ul_flimg li span.title a{ font-size:14px; font-weight:bold; color:black}
+
+.ul_flimg li span.time{ color:#666; font-size:12px; height:16px; line-height:16px; display:block}
+
+.ul_flimg li span.time a{ font-weight:100; color:#369; font-size:12px}
+
+.ul_flimg li .info{padding-top:6px; line-height:14px; font-size:12px; clear:both; display:block; margin-top:10px; color:#666}
+
+.ul_flimg li .info .inner{ background:#f1f1f1; padding:5px}
+
+.tougao{}
+
+.tougao a{ display:block; background:#36a; color:#fff!important; height:30px; line-height:30px; text-align:center; font-weight:bold; margin:10px 10px 0}
+
+.tougao a:hover{ background:#f60; color:#fff; text-decoration:none}
+
+.tougao a{-webkit-border-radius:4px;border-radius:4px;-moz-border-radius:4px;}
+
+h3 span.nav{ font-size:12px; font-weight:100; color:#888; margin-left:12px}
+
+h3 span.nav a{ color:#666; margin:0 5px;}
+
+h3 span.nav a:hover{ color:blue}
+
+ul.ul_imglist{ clear:both; overflow:hidden; zoom:1; padding-top:15px; padding-bottom:10px}
+
+ul.ul_imglist li{ float:left; width:156px; display:inline!ie; margin-left:18px; line-height:16px;text-align:center; font-size:12px}
+
+ul.ul_imglist li img{ display:block; margin-bottom:3px}
+
+ul.ul_imglist li span{ display:block}
+
+ul.ul_imglist li span.vimg{ border:2px solid #ddd; border-left-color:#fff;border-top-color:#fff; padding:0; overflow:hidden;}
+
+ul.ul_imglist li span.vimg img{ padding:5px; border:1px solid #ccc;-webkit-border-radius:0px;border-radius:0px;-moz-border-radius:0px;}
+
+ul.ul_imglist li span.vimg a{ display:block; width:152px; height:152px; overflow:hidden}
+
+ul.ul_imglist li span.title{ padding:4px 5px 0 5px; text-align:left}
+
+ul.ul_imglist li span.gray{ text-align:left; padding-top:2px; padding-left:3px; padding-bottom:10px}
+
+
+
+ul.ul_imglist.mlx li{ margin-left:16px!Important; width:140px}
+
+ul.ul_imglist.mlx li span.vimg{ border:0!important;}
+
+ul.ul_imglist.mlx li span.vimg img{ padding:0!Important; border:0!important}
+
+ul.ul_imglist.mlx li span.vimg a{ width:140px!important; height:140px!important}
+
+
+
+h3 span.titlegray{ color:#666; font-size:14px}
+
+
+
+ul.ul_paihangbang{}
+
+ul.ul_paihangbang li{ clear:both; overflow:hidden; zoom:1; padding:10px 0; border-bottom:1px dotted #ddd;}
+
+ul.ul_paihangbang li:hover{ background:#f6f6f6}
+
+ul.ul_paihangbang li span{ display:inline-block; vertical-align:top}
+
+ul.ul_paihangbang li span.xulie{ width:24px; color:#888; text-align:center; padding-left:4px!Ie; font-style:italic; font-size:14px; font-family:Arial, Helvetica, sans-serif;}
+
+ul.ul_paihangbang li.mtop span.xulie{ color:#f60; font-weight:bold}
+
+ul.ul_paihangbang li span.title{ width:190px; font-size:12px}
+
+ul.ul_paihangbang li span.title a{ font-weight:bold; color:#000}
+
+ul.ul_paihangbang li.mtop span.title{ width:130px; margin-left:5px}
+
+
+
+
+
+.pubu{ width:1000px; margin:0 auto;  min-height:500px;}
+
+#thumbs {position: relative; padding: 10px 0; }
+
+.imgbox{margin:5px 7px;  _margin:5px 6px;}
+
+.imgbox .vimg,.imgbox .title,.imgbox .gray, .imgbox .sns{display:block; padding:5px 10px 0;   }
+
+.imgbox { position: absolute; padding-bottom:15px; 
+
+ background:url(../www_images/photo/bg_pubu.jpg) #f1f1f1 right bottom no-repeat;  font-size:12px; }
+
+.imgbox_main{border:1px solid #e0e0e0; border-bottom:none; }
+
+.imgbox .vimg{ padding-top:10px; border-top:1px solid #FFF; position:relative; z-index:99;}
+
+.imgbox .vimg img{height:auto; z-index:99;}
+
+.imgbox .vimg .xg{ display:none; position:absolute; bottom:5px; width:100%; left:0;  font-size:12px; background:url(../www_images/www/png_dian.png); z-index:999; text-align:center;}
+
+.imgbox .vimg .xg a{ color:#FFF; padding:0 10px; margin:0 10px; line-height:2em; display:inline-block; text-decoration:none; cursor:pointer; }
+
+.imgbox .vimg .xg a:hover{ background:#900;}
+
+.imgbox .title{white-space:normal; font-size:14px;}
+
+.imgbox .sns{  color:#999; padding-top:0; }
+
+.imgbox .sns a{color:#999; text-decoration:underline;}
+
+.imgbox:hover{ border-color:#fff;}
+
+.imgbox:hover .vimg img{opacity:.9;filter:alpha(opacity=90)}
+
+.imgbox:hover .vimg .xg{ display:block;}
+
+.imgbox .gray{padding:5px 10px;}
+
+.imgbox .comment{ background:#FFF; margin:10px 5px 0;}
+
+.imgbox .comment li{ clear:both; display:block; overflow:hidden; padding:5px; border-top:1px solid #eee;  color:#666;}
+
+.imgbox .comment li img{ width:40px; height:40px; margin-right:5px;}
+
+.imgbox .comment li a{ font-weight:bold;}
+
+
+
+#page_nav {clear: both; text-align: center; }
+
+#page_loading {display: none; }
+
+
+
+.pubu_nav{ border-top:3px solid #666; zoom:1; padding:10px; clear:both; overflow:hidden;  }
+
+.pubu_nav li.now{ width:200px; }
+
+.pubu_nav li{ width:95px; margin:5px 3px;}
+
+.pubu_nav li{float:left;  font-size:12px; text-align:center; }
+
+.pubu_nav li a{ padding:3px; _padding:3px 0; border:1px solid #CCC; background:#ddd; border-radius:15px; display:block;}
+
+.pubu_nav li a:hover{ text-decoration:none; background:#f60; color:#FFF;}
+
+.pubu_nav li.now a{background:#FFF;}
+
+.pubu_nav li.now a:hover{ color:#000;}
+
+
+
+#more{ text-align:center; margin-bottom:10px; cursor:pointer;}
+
+#page_loading span{ padding:20px; text-align:center; display:block; overflow:hidden}
+
+#page_loading center{ color:#666}
+
+#more:hover{opacity:.8;filter:alpha(opacity=80)}
+
+#pubu_start{ padding:100px; text-align:center;}
+
+
+
+.music_nav{ background:url(../www_images/song/bg_nav.png) 0 0 no-repeat; width:1000px;}
+
+.music_nav li.now { background:url(../www_images/song/bg_nav_now.png) center bottom no-repeat;}
+
+.music_nav{ padding:1px 3px 0; margin:0 auto}
+
+.m_nav_l{ padding:0 2px; line-height:40px;  position:relative; }
+
+.m_nav_l li{ float:left; padding-bottom:3px;}
+
+.m_nav_l li a{border-right:1px solid #990000; padding:0 12px; display:block; color:#FFF; text-decoration:none; font-family:"ËÎÌו";}
+
+.m_nav_l li a:hover{ background:#C00; text-decoration:none; color:#FF9;}
+
+.m_nav_l li.now{ font-weight:bold;}
+
+.m_nav_l li.now a:hover{ background:none;}
+
+.m_nav_l li p{ display:none; color:#666; overflow:hidden; position:absolute; line-height:30px; font-size:12px; top:40px; left:0; width:750px;}
+
+.m_nav_l li p b{ color:#C00;}
+
+.music_nav .m_nav_l li p a{ color:#06C; display:inline; padding:0; border:none;  }
+
+.music_nav .m_nav_l li p a:hover{ background:#06C; color:#FFF;}
+
+.music_nav .m_nav_l li p.m_nav_list a{ padding:2px 4px; margin:0 5px; }
+
+.music_nav .m_nav_l li p.m_nav_kaoji{ left:200px;}
+
+.music_nav .m_nav_l li p.m_nav_liupai{ left:200px;}
+
+.music_nav .m_nav_r{ font-size:12px; padding-right:15px; color:#F66;}
+
+.music_nav .m_nav_r a{ color:#FFF; line-height:40px; padding:0 5px;}
+
+.music_nav blockquote{ height:30px; border-bottom:1px solid #DDD; display:block; overflow:hidden;}
+
+.music_so{margin:0 auto; background:#F8F8F8;}
+
+.music_so .inner{  height:30px;border:1px solid #DDD; border-top:none; background:#f8f8f8; padding:10px 10px 10px 80px; }
+
+.music_so{ line-height:20px; width:1000px}
+
+.m_so{  }
+
+#so_select{ position:relative; text-align:center; width:80px; float:left;}
+
+#so_select span{ padding-right:20px;  height:30px; line-height:30px; display:block;}
+
+#so_select ul{ display:none; position:absolute; border:1px solid #999; background:#FFF; top:29px; left:0; z-index:99; }
+
+#so_select li{ line-height:2.5em; display:block;  width:78px; font-size:12px; color:#666;}
+
+#so_select li:hover{ background:#EEE; color:#F60;}
+
+.m_so_inner{ font-size:14px; margin-left:2px; border:1px solid; border-color:#999 #DDD #DDD #999; height:25px; padding:2px; background:#FFF;}
+
+.m_so_inner .sub{text-align:center; width:50px; color:#FFF; background:#900; margin:0; height:25px;}
+
+.m_so_inner .sub:hover{ background:#C00;}
+
+.m_so_inner .text{width:300px; outline:none;}
+
+.m_so .more{ line-height:30px; padding-left:20px; font-size:12px; color:#666; width:300px; }
+
+.m_so .more a{ padding:2px 5px;}
+
+.m_so .more a:hover{ background:#06C; color:#FFF; text-decoration:none;}
+
+#so_select, #so_select span, #so_select ul li,.m_so_form .sub, .islogin .sub:hover, .music_view_panel li b{cursor:pointer; }
+
+.m_so_inner input{ border:0; line-height:20px; height:20px; padding:2px 5px;}
+
+.music_so .inner{ background:url(../www_images/lunwen/bg_ico.png)  no-repeat;}
+
+.m_so_form .sub, .islogin .sub{ border-radius:3px;-moz-border-radius:3px; }
+
+#so_select{ background:url(../www_images/song/bg_.png) -300px 0 no-repeat;}
+
+.tougao {
+
+margin-top: -8px;
+
+}

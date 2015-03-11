@@ -1,0 +1,6 @@
+@charset "gb2312";/* CSS Document  */
+.nav_tv{  padding:13px 0 2px; background:url(../www_images/mingqu/bg_nav.png) 0 0 no-repeat}
+.bgnone{ background:none}
+.tvinner ul li .avatar{width: 250px;height: 155px;display: block;overflow: hidden;}
+.tvinner ul li .avatar img{ width:250px;}
+.tvinner ul.tvlist2 li {width: 250px;margin: 10px 0 10px 13px;}

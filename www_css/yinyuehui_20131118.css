@@ -1,0 +1,155 @@
+@charset "gb2312";
+
+/* CSS Document */
+
+.nav_tv{  padding:13px 0 2px; background:url(../www_images/yinyuehui/bg_nav.png) #C00 0 0 no-repeat}
+.bgn{ background:none!important; font-size:14px}
+.bgno{ background-image:none!important}
+.p0{ padding:0!important; font-size:12px!important}
+.tv_boda{ font-size:14px; font-weight:bold; padding-top:20px}
+.tv_boda strong{ color:red; display:block}
+.tv_banner{ width:1000px; margin:0 auto;border:1px solid #ccc;}
+.tv_now{ width:800px;margin:0 auto;}
+.tv_now .vimg {float: left;background: #ddd;padding: 10px;}
+.tv_now,.h300{ height:300px!important; overflow:hidden!important}
+.tv_now{   height:auto!Important}
+.tv_now .vimg a{ display:block; width:180px; height:280px;position:relative; text-decoration:none}
+.tv_now dl dd.info{ font-size:12px!important; color:#666; padding:4px 8px!important; margin-bottom:15px!important; border:1px dotted #ddd; line-height:18px; background:#f5f5f5; text-align:left; clear:both; overflow:hidden; zoom:1 ; margin-top:15px;}
+.tv_now dl dd.info span{ display:inline-block; width:20em}
+.tv_now dl dd.info2{ font-size:12px; color:#666; border-bottom:1px dotted #ddd; margin:15px 0; padding-bottom:6px}
+.tv_now dl dd.info2 strong.red{ color:red}
+.tv_now dl dd.info2 a{ text-decoration:underline}
+.tv_now dl dt{ height:30px; line-height:30px; margin-bottom:6px!important;}
+.tv_now dl dd.listx{ position:relative; padding-left:10px}
+.tv_now dl dd.listx ul{ margin-left:0px;}
+.tv_now dl dd.listx li{  width:76px; height:102px; line-height:14px; overflow:hidden; float:left; margin-left:20px; display:inline!ie; border:1px solid #ddd; padding:4px; font-size:12px; text-align:center; box-shadow:#ccc 2px 2px 2px 0}
+.tv_now dl dd.listx li img{ display:block;-webkit-border-radius:0;border-radius:0;-moz-border-radius:0; width:76px; height:76px; padding-bottom:2px!ie}
+.tv_now dl dd.listx a.vleft,.tv_now dl dd.listx a.vright{ display:block; position:absolute; top:0; width:12px; height:78px; overflow:hidden; text-indent:-999em; background:url(../www_images/chart/jt.png) no-repeat; opacity:0.4;filter:alpha(opacity=40)}
+.tv_now dl dd.listx a.vleft{ background-position:0 -25px; left:0; top:10px}
+.tv_now dl dd.listx a.vright{ background-position:right -25px; right:0; top:10px}
+.tv_now dl dd.listx a:hover{opacity:0.7;filter:alpha(opacity=70)}
+.tv_now dl{ padding:10px; float:left; width:570px; margin-right:5px}
+.tv_now dl dt{ height:30px; line-height:30px; margin-bottom:12px;}
+.tv_now dl dt span{ vertical-align:top; display:block; float:left}
+.tv_now dl dt span.xulie{background:#000 url(../www_images/renwu/jiantou.png) right center no-repeat; font-size:12px; color:#fff; height:26px; line-height:26px; _font-family:"ËÎÌå"; padding:1px 15px 1px 7px; margin-right:10px}
+.tv_now dl dt span.title,.tv_now dl dt span.title a{font-family: "Î¢ÈíÑÅºÚ","ºÚÌå";text-shadow:#eee 2px 2px 2px;font-weight:500;font-size:20px; text-align:center; color:#333}
+.tv_now dl dt span.title{margin-top:-3px; float:left; overflow:hidden; text-align:left}
+.tv_now dl dt span.title a{ text-decoration:none}
+.tv_now dl dt span.title a:hover{ color:red}
+.tv_now dl dd.info{ font-size:14px; color:#666; padding:10px; margin-bottom:10px; border:1px dotted #ddd; background:#f5f5f5 }
+.tv_now dl dd.info strong{ display:block;}
+.tv_now dl dd.last{ font-size:12px}
+.tv_now dl dd.last span.jiabin{ float:left; padding-left:20px;background:url(../www_images/renwu/ico.png) -184px -185px no-repeat }
+.tv_now dl dd.last span.more{ float:right}
+.tv_now dl dd.last span.more a{margin-left:10px}
+.tvside h3 span.more{ font-size:12px; font-weight:100; float:right; margin-top:-28px!ie}
+.tvside h3 span.more a{ color:#999;}
+.ylist{}
+.ylist #pagelist{ text-align:center; padding-bottom:20px}
+.ylist ul{ padding:15px; padding-bottom:0px;}
+.ylist ul li{padding-bottom:20px; clear:both; overflow:hidden; zoom:1; border-bottom:1px dotted #ddd; margin-bottom:20px}
+.ylist ul li:hover{ border-bottom-color:#7FB0E0}
+.ylist ul li span.vimg{ float:left; display:block; width:100px; margin-right:12px}
+.ylist ul li span.vimg img{ width:100px; height:150px;}
+.ylist ul li dl{ overflow:hidden;}
+.ylist ul li dl dt{ padding-bottom:4px; margin-bottom:4px; border-bottom:1px dotted #ddd}
+.ylist ul li dl dt a{ font-size:20px; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-weight:200; color:#000; text-shadow:#ccc 2px 2px 2px}
+.ylist ul li dl dt a:hover{ color:red!important; text-decoration:none;}
+.ylist ul li dl dd{ font-size:12px}
+.ylist ul li dl dd.info span.gray{ color:#888}
+.ylist ul li dl dd.info span.gray span.ml05{ margin:0 0.5em}
+.ylist ul li dl dd.play{ padding-top:4px}
+.ylist ul li dl dd.play a{ display:block; width:80px; height:20px; background:url(../www_images/yinyuehui/playbutton.png) 0 0 no-repeat; text-indent:-999em}
+.ylist ul li dl dd.num{ color:#888;}
+.ylist ul li dl dd.time_add{ display:inline-block; width:49%}
+.m_gz{}
+.m_gz ul{ padding:5px 10px}
+.m_gz ul li{ font-size:12px; padding-bottom:10px; margin-bottom:5px; border-bottom:1px dotted #ddd}
+.m_gz ul li span.vimg{ float:left; margin-right:12px}
+.m_gz ul li span.infocon{ background:#eaeaea; display:block; padding:5px 10px}
+.m_gz ul li span.jiantou{ display:block; padding-top:5px}
+.box750{ width:790px}
+.box200{ width:200px}
+.y_top{ position:relative; overflow:hidden; padding-top:10px; height:140px;}
+.y_top .inner{ background:#000; color:#fff; height:24px; line-height:24px; position:absolute; bottom:0; left:0; width:100%; opacity:0.6;filter:alpha(opacity=60); text-indent:12px; font-size:12px}
+.y_top .inner span.more{ float:right; margin-top:-24px!ie; margin-right:12px}
+.y_top .inner span.more a{ color:#fff; text-decoration:underline;}
+.y_list{}
+.y_list ul{}
+.y_list ul li,.y_info{  border-top:0; padding:15px; border-bottom:1px dotted #ddd}
+.y_list ul li{ height:122px; overflow:hidden; margin:0; margin-bottom:-2px!ie}
+.y_list ul li:hover{ background:#FFF0D3; border-color:#CB0100;border-bottom-color:#ddd}
+.y_list ul li span.vimg{ float:left; width:140px;}
+.y_list ul li .frbox{ width:615px; float:right}
+.y_list ul li .frbox .title{ border-bottom:1px dotted #ddd; padding-bottom:5px; margin-bottom:8px}
+.y_list ul li .frbox .title span.tit{ float:left; vertical-align:center; padding-right:12px;}
+.y_list ul li .frbox .title span.tit a{ font-family: "Î¢ÈíÑÅºÚ","ºÚÌå";text-shadow: #CCC 0 1px 2px;font-weight:200;font-size:28px;line-height: 38px;color: #333;}
+.y_list ul li .frbox .title span.tit a:hover,.y_list ul li:hover .frbox .title span.tit a{ color:red}
+.y_list ul li .frbox .title span.yz{ color:#666; font-size:12px; line-height:14px; float:left; padding-top:5px}
+.y_list ul li .frbox .title span.yz strong{ color:#d80000}
+.y_list ul li .frbox .info{ font-size:12px; color:#666}
+.y_list ul li .frbox .info a{ text-decoration:underline}
+.zt{ text-align:right;border:1px solid #ddd;  border-top:0; height:28px; padding-right:20px; line-height:28px; border-bottom:1px dotted #ddd}
+.y_info{ border-bottom:1px solid #ddd; margin-bottom:10px}
+.y_info h4{ color:red; font-size:14px;}
+.yugao dl{ padding-bottom:10px; margin-bottom:10px}
+.jj{ padding:15px; background:#f6f6f6; border-bottom:1px dotted #ddd; margin-top:-10px; margin-bottom:15px}
+.mtx{ margin-bottom:10px; margin-top:-10px}
+.box800{ width:780px; overflow:hidden; padding:0 10px;}
+.tv_now,.tv_now dl dt,.tv_now dl dd.last,.tv_now dl dd.listx,.ylist ul,.m_gz ul li,.main,.y_list ul li,.y_list ul li .frbox .title,.yugao dl{ clear:both; overflow:hidden; zoom:1}
+h2.bluet2{ font-size:12px; text-align:center; font-weight:100; color:#369; margin-bottom:20px; margin-top:-5px}
+h2.bluet2 span{ margin:0 1em}
+.news_yyh ul{padding:5px; }
+.news_yyh ul li{ line-height:2.2em; color:#CCC; font-family:"ËÎÌå"; font-size:12px;}
+.news_yyh ul li a{}
+.list .weizhi { width:750px; margin-top:10px;}
+.box h3 {
+
+height: 28px;
+
+line-height: 28px;
+
+overflow: hidden;
+
+clear: both;
+
+border-bottom: 1px solid #ddd;
+
+padding: 0 10px;
+
+background: url(../www_images/gobal/h3bg.png) repeat-x;
+
+}
+.box h3 span.title, .box h3 span.title a {
+
+color: #D80000;
+
+font-size: 14px;
+
+text-decoration: none;
+
+}
+.main{margin-bottom: 10px;}
+.tvpresent{ background:#333;}
+@media screen and (max-width: 1000px) {	
+
+ .tv_now,.box200,.y_top,.tvpresent{ display:none!important;}
+.y_list ul li .frbox,.y_list ul li,.box750 ,.box800 { width:auto!important;}
+.y_list ul li{ height:auto!important;}
+.box800{ padding:0px; float:none!important;}
+}
+@media screen and (max-width: 750px) {	
+
+
+
+	
+
+}
+@media screen and (max-width: 520px) {	
+
+.ylist ul li span.vimg{ float:none!important;}
+.renwucontent .vcont { padding:10px;}
+h2.bluet2{ margin-bottom:0px;}
+}
+
+

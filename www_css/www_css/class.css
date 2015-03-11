@@ -1,0 +1,18 @@
+@charset "gb2312";
+/* CSS Document */
+.nav_tv{  padding:13px 0 2px; background:url(../www_images/class/bg_nav.png) #C00 0 0 no-repeat}
+.bgnone{ background:none}
+.yjy{}
+.yjy dl dd,.yugao dl{ clear:both; overflow:hidden; zoom:1}
+.yjy dl dt{ padding:10px 10px 5px}
+.yjy dl dt a{ font-size:14px; font-weight:bold; color:#000}
+.yjy dl dd img{ float:left; margin-right:5px; margin-top:2px}
+.yjy dl dd{ font-size:12px; color:#666; padding:0 10px 10px; border-bottom:1px dotted #ddd}
+.ybktop ul{ margin-left:-5px}
+.yugao{ padding-top:0}
+.yugao dl{ padding:10px 0; height:70px; overflow:hidden;}
+.yugao dl dd a{ font-size:14px}
+.yugao dl dd span.f12{ color:#888}
+.tixing{ background:#E5EEF7;  padding:30px 70px 20px; margin-bottom:10px; border:5px solid #D6E4F2}
+.tixing p{text-indent:2em; margin-bottom:10px}
+.tixing strong{ color:red}

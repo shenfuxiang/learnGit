@@ -1,0 +1,197 @@
+@charset "gb2312";
+
+
+/* CSS Document */
+
+
+.nav_tv{  padding:13px 0 2px; background:url(../www_images/yinyuehui/bg_nav.png) #C00 0 0 no-repeat}
+
+.bgn{ background:none!important; font-size:14px}
+
+.bgno{ background-image:none!important}
+
+.p0{ padding:0!important; font-size:12px!important}
+
+.tv_boda{ font-size:14px; font-weight:bold; padding-top:20px}
+
+.tv_boda strong{ color:red; display:block}
+
+.tv_banner{ width:1000px; margin:0 auto;border:1px solid #ccc;}
+
+.tv_now{ width:800px;margin:0 auto;}
+
+.tv_now .vimg {float: left;background: #ddd;padding: 10px;}
+
+.tv_now,.h300{ height:300px!important; overflow:hidden!important}
+
+.tv_now{   height:auto!Important}
+
+.tv_now .vimg a{ display:block; width:180px; height:280px;position:relative; text-decoration:none}
+
+.tv_now dl dd.info{ font-size:12px!important; color:#666; padding:4px 8px!important; margin-bottom:15px!important; border:1px dotted #ddd; line-height:18px; background:#f5f5f5; text-align:left; clear:both; overflow:hidden; zoom:1 ; margin-top:15px;}
+
+.tv_now dl dd.info span{ display:inline-block; width:20em}
+
+.tv_now dl dd.info2{ font-size:12px; color:#666; border-bottom:1px dotted #ddd; margin:15px 0; padding-bottom:6px}
+
+.tv_now dl dd.info2 strong.red{ color:red}
+
+.tv_now dl dd.info2 a{ text-decoration:underline}
+
+.tv_now dl dt{ height:30px; line-height:30px; margin-bottom:6px!important;}
+
+.tv_now dl dd.listx{ position:relative; padding-left:10px}
+
+.tv_now dl dd.listx ul{ margin-left:0px;}
+
+.tv_now dl dd.listx li{  width:76px; height:102px; line-height:14px; overflow:hidden; float:left; margin-left:20px; display:inline!ie; border:1px solid #ddd; padding:4px; font-size:12px; text-align:center; box-shadow:#ccc 2px 2px 2px 0}
+
+.tv_now dl dd.listx li img{ display:block;-webkit-border-radius:0;border-radius:0;-moz-border-radius:0; width:76px; height:76px; padding-bottom:2px!ie}
+
+.tv_now dl dd.listx a.vleft,.tv_now dl dd.listx a.vright{ display:block; position:absolute; top:0; width:12px; height:78px; overflow:hidden; text-indent:-999em; background:url(../www_images/chart/jt.png) no-repeat; opacity:0.4;filter:alpha(opacity=40)}
+
+.tv_now dl dd.listx a.vleft{ background-position:0 -25px; left:0; top:10px}
+
+.tv_now dl dd.listx a.vright{ background-position:right -25px; right:0; top:10px}
+
+.tv_now dl dd.listx a:hover{opacity:0.7;filter:alpha(opacity=70)}
+
+.tv_now dl{ padding:10px; float:left; width:570px; margin-right:5px}
+
+.tv_now dl dt{ height:30px; line-height:30px; margin-bottom:12px;}
+
+.tv_now dl dt span{ vertical-align:top; display:block; float:left}
+
+.tv_now dl dt span.xulie{background:#000 url(../www_images/renwu/jiantou.png) right center no-repeat; font-size:12px; color:#fff; height:26px; line-height:26px; _font-family:"ËÎÌå"; padding:1px 15px 1px 7px; margin-right:10px}
+
+.tv_now dl dt span.title,.tv_now dl dt span.title a{font-family: "Î¢ÈíÑÅºÚ","ºÚÌå";text-shadow:#eee 2px 2px 2px;font-weight:500;font-size:20px; text-align:center; color:#333}
+
+.tv_now dl dt span.title{margin-top:-3px; float:left; overflow:hidden; text-align:left}
+
+.tv_now dl dt span.title a{ text-decoration:none}
+
+.tv_now dl dt span.title a:hover{ color:red}
+
+.tv_now dl dd.info{ font-size:14px; color:#666; padding:10px; margin-bottom:10px; border:1px dotted #ddd; background:#f5f5f5 }
+
+.tv_now dl dd.info strong{ display:block;}
+
+.tv_now dl dd.last{ font-size:12px}
+
+.tv_now dl dd.last span.jiabin{ float:left; padding-left:20px;background:url(../www_images/renwu/ico.png) -184px -185px no-repeat }
+
+.tv_now dl dd.last span.more{ float:right}
+
+.tv_now dl dd.last span.more a{margin-left:10px}
+
+.tvside h3 span.more{ font-size:12px; font-weight:100; float:right; margin-top:-28px!ie}
+
+.tvside h3 span.more a{ color:#999;}
+
+
+.ylist #pagelist{ text-align:center; padding-bottom:20px}
+
+.ylist ul{ padding:0 20px;}
+
+.ylist ul li{padding:20px 0; clear:both; overflow:hidden; zoom:1; border-bottom:1px dotted #ddd;}
+
+.ylist ul li:hover{ border-bottom-color:#7FB0E0}
+
+.ylist ul li a.vimg{ float:left; display:block; width:250px; height:155px; overflow:hidden; position:relative;}
+
+.ylist ul li a.vimg:after{content:url(http://lib.zhongguoguzheng.com/www_images/www2013/bg_play.png);position: absolute;left: 0;bottom: 0;z-index: 10;}
+
+.ylist ul li a.vimg img{ width:100%;}
+
+.ylist ul li a.vimg:hover img{ transform:scale(1.3); -webkit-transform:scale(1.3); transition:all 1.0s; -webkit-transition:all 1.0s;}
+
+.ylist ul li:hover dd.num{ background-color:#ffd;}
+
+.ylist ul li:hover dt a{ color:#f33}
+
+.ylist ul li dl{ overflow:hidden; width:500px; float:right; }
+
+.ylist ul li dl dt{ padding-bottom:4px; margin-bottom:4px;}
+
+.ylist ul li dl dt a{ font-size:20px; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-weight:200; color:#000;}
+
+.ylist ul li dl dt a:hover{ text-decoration:none;}
+
+.ylist ul li dl dd{ font-size:12px}
+
+.ylist ul li dl dd.info span.gray{ color:#999}
+
+.ylist ul li dl dd.info span.gray span.ml05{ margin:0 0.5em}
+
+.ylist ul li dl dd.play{ padding-top:4px}
+
+.ylist ul li dl dd.play a{ display:block; width:80px; height:20px; background:url(../www_images/yinyuehui/playbutton.png) 0 0 no-repeat; text-indent:-999em}
+
+.ylist ul li dl dd.num{ color:#666; background-color:#f2f2f2; padding:10px;}
+
+.ylist ul li dl dd.time_add{ display:inline-block; width:49%; margin-top:5px;color:#999;}
+
+.m_gz ul{ padding:5px 10px}
+
+.m_gz ul li{ font-size:12px; padding-bottom:10px; margin-bottom:5px; border-bottom:1px dotted #ddd}
+
+.m_gz ul li span.vimg{ float:left; margin-right:12px}
+
+.m_gz ul li span.infocon{ background:#eaeaea; display:block; padding:5px 10px}
+
+.m_gz ul li span.jiantou{ display:block; padding-top:5px}
+
+.box750{ width:790px}
+
+.box200{ width:200px}
+
+.zt{ text-align:right;border:1px solid #ddd;  border-top:0; height:28px; padding-right:20px; line-height:28px; border-bottom:1px dotted #ddd}
+
+.yugao dl{ padding-bottom:10px; margin-bottom:10px}
+
+.tv_now,.tv_now dl dt,.tv_now dl dd.last,.tv_now dl dd.listx,.ylist ul,.m_gz ul li,.main,.yugao dl{ clear:both; overflow:hidden; zoom:1}
+
+.news_yyh ul{padding:5px; }
+
+.news_yyh ul li{ line-height:2.2em; color:#CCC; font-family:"ËÎÌå"; font-size:12px;}
+
+.list .weizhi { width:750px; margin-top:10px;}
+
+.main{margin-bottom: 10px;}
+
+.tvpresent{ background:#333;}
+
+.allYList .inner span{ width:90px !important; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; margin-left:0 !important;}
+
+.allYList .inner .title{ overflow:hidden;}
+
+@media screen and (max-width: 1000px) {	
+
+.tv_now,.box200,.y_top,.tvpresent{ display:none!important;}
+
+.ylist ul li{ height:auto!important; width:auto !important;}
+
+.box800{ padding:0px; float:none!important;}
+
+}
+
+@media screen and (max-width: 750px) {	
+.ylist ul li dl{ width:auto; float:none;}
+.ylist ul li a.vimg{ margin:0 auto; float:none; margin-bottom:15px;}
+
+}
+
+@media screen and (max-width: 520px) {	
+
+.ylist ul li a.vimg{  display:none !important;}
+
+.renwucontent .vcont { padding:10px;}
+
+h2.bluet2{ margin-bottom:0px;}
+
+}
+
+
+
+
+

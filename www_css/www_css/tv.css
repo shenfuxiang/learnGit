@@ -1,0 +1,135 @@
+@charset "gb2312";
+/* CSS Document */
+.nav_tv{ width:960px; margin:0px auto 10px auto; height:80px; overflow:hidden; position:relative;background:url(../www_images/tv/menubg.png) 0 0 no-repeat; clear:both; overflow:hidden; zoom:1}
+.nav_tv ul{ height:55px; float:left; width:700px;}
+.nav_tv ul li{ float:left; margin-left:1em; display:inline!ie; height:30px; line-height:30px; padding-top:13px}
+.nav_tv ul li a{ color:#444;}
+.nav_tv ul li a:hover{ color:#000}
+.nav_tv ul li.on a{ color:#d80000; font-weight:bold}
+.nav_tv .mlink{ font-size:12px; text-indent:14px;height:24px; overflow:hidden; line-height:24px; line-height:26px!ie; width:700px;}
+h2.logo_tv{ width:250px; height:80px; float:left; overflow:hidden; text-align:center}
+h2.logo_tv a{ line-height:55px; font-size:34px; color:#000; font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; text-shadow:#fff 2px 2px 2px; font-weight:400}
+h2.logo_tv a:hover{ text-decoration:none; color:red}
+.subnav{ background:url(../www_images/tv/nosearch.png) 0 3px no-repeat; position:relative; width:990px!important; height:54px; overflow:hidden; zoom:1}
+.subnav ul{ width:840px; z-index:8}
+.subnav h4.titlesub{ width:104px; height:33px; display:block; z-index:99; display:block; zoom:1; overflow:hidden}
+.subnav h4.titlesub,.subnav h4.titlesub a{line-height:40px; color:#d80000; overflow:hidden;font-family: "Î¢ÈíÑÅºÚ","ºÚÌå";text-shadow:#ccc 2px 2px 2px;font-weight:500; font-size:20px; text-align:center; }
+
+
+.maintv{ width:100%; background:#000 url(../www_images/tv/maintvbg.png) 0 0 repeat-x; height:320px;}
+.maintv .inner{ width:1000px; margin:0px auto; position:relative; height:320px; overflow:hidden; clear:both; zoom:1}
+.maintv .inner .tvfoucs{ padding-top:10px; height:300px; overflow:hidden; float:left; width:700px; position:relative}
+.maintv .inner .tvfoucs .tvfocusimg{ z-index:9}
+.maintv .inner .tvfoucs .tvfocusinfo,.maintv .inner .tvfoucs .title{ background:#000; opacity:0.6;filter:alpha(opacity=60); color:#fff; width:690px; position:absolute; top:210px; left:0; font-size:12px; padding:10px; line-height:18px; overflow:hidden}
+.maintv .inner .tvfoucs .title a{ color:#fff; font-size:12px; display:block; line-height:18px; overflow:hidden;}
+.maintv .inner .tvfoucs .title a:hover{ text-decoration:none}
+.maintv .inner .tvfoucs .tvfocuscontrol{ height:12px; position:absolute; top:288px; left:0; font-size:0; line-height:0}
+.maintv .inner .tvfoucs .tvfocuscontrol ul{ height:10px; clear:both;}
+.maintv .inner .tvfoucs .tvfocuscontrol ul li{ float:left; width:34px; height:10px; font-size:0; line-height:0; display:inline!ie}
+.maintv .inner .tvfoucs .tvfocuscontrol ul li a{ display:block; width:24px; height:10px; text-indent:-999em; background:#fff;opacity:0.3;filter:alpha(opacity=30); }
+.maintv .inner .tvfoucs .tvfocuscontrol ul li a:hover{opacity:0.7;filter:alpha(opacity=70)}
+.maintv .inner .tvfoucs .tvfocuscontrol ul li.on a{opacity:1;filter:alpha(opacity=100); background:#66FF00}
+#imagefocus,#imagefocus img{ border-radius:0!important}
+.maintv .inner .tvfoucs .title{}
+.maintv .inner .tvfoucs .change{ position:absolute; height:12px; top:288px; left:0; font-size:0; line-height:0;}
+.maintv .inner .tvfoucs .change i{float:left; width:34px; height:10px; font-size:0; line-height:0; display:inline!ie;display:block; width:24px; height:10px; text-indent:-999em; background:#fff;opacity:0.3;filter:alpha(opacity=30); margin-left:10px; cursor:pointer}
+.maintv .inner .tvfoucs .change i:hover{opacity:0.7;filter:alpha(opacity=70)}
+.maintv .inner .tvfoucs .change i.cur{opacity:1;filter:alpha(opacity=100); background:#66FF00}
+.maintv .inner .tvyugao{ float:right; height:304px; overflow:hidden; position:relative; width:280px; padding:6px 10px 10px 10px; background: #7E0000 url(../www_images/tv/maintvrbg.png) 0 0 no-repeat}
+.maintv .inner .tvyugao h3{ font-family:'Î¢ÈíÑÅºÚ','ºÚÌå'; color:#fff; font-size:16px; font-weight:100; text-shadow:#333 2px 2px 2px}
+.maintv .inner .tvyugao ul{ }
+.maintv .inner .tvyugao ul li{ border-bottom:1px dotted #9F2B2B; padding:6px 0; *padding:3px 0; _padding:4px 0}
+.maintv .inner .tvyugao ul li span.time{ font-size:11px; color:#fff;opacity:0.5;filter:alpha(opacity=50); display:block; height:12px; line-height:12px; margin-bottom:-2px!ie; _margin-bottom:0 }
+.maintv .inner .tvyugao ul li span.con{ display:block; padding-left:16px; font-size:12px; color:#fff; background:url(../www_images/tv/focusrightbg.png) 0 3px no-repeat;height:22px; line-height:22px; overflow:hidden;height:21px!ie; line-height:21px!ie;
+}
+.maintv .inner .tvyugao ul li span.con a.which{ color:#E58E8E;}
+.maintv .inner .tvyugao ul li span.con a.title{ color:#fff;}
+.tvlist{ clear:both; overflow:hidden; zoom:1; padding:10px 0;}
+.tvlist .tvlist_box{ border-top:4px solid #000; width:201px; margin-left:-1px; float:left; display:inline!ie; }
+.tvlist .tvlist_box .inner{ border:1px solid #ddd; border-top:0; clear:both; overflow:hidden; zoom:1; height:655px; height:665px!ie;position:relative}
+.tvlist .tvlist_box h3{ font-size:14px; text-align:center; height:40px; line-height:40px}
+.tvlist .tvlist_box .inner ul{ font-size:12px; width:170px; margin:0px auto}
+.tvlist .tvlist_box .inner ul li.vimg{ height:200px; border-bottom:1px dotted #ddd; margin-bottom:12px}
+.tvlist .tvlist_box .inner ul li.vimg a.vimage{ display:block; width:170px; height:170px; position:relative;}
+.tvlist .tvlist_box .inner ul li.vimg a.vimage span.title{ display:block; width:150px; padding:5px 10px; position:absolute; left:0; bottom:0; line-height:14px; color:#fff; background:#000;opacity:0.7;filter:alpha(opacity=70); cursor:pointer}
+.tvlist .tvlist_box .inner ul li.vimg a.vimage:hover{text-decoration:none}
+.tvlist .tvlist_box .inner ul li.vimg a.vimage:hover span.title{opacity:1;filter:alpha(opacity=100)}
+.tvlist .tvlist_box .inner ul li.vimg span.ctl{ height:20px; line-height:20px; display:block; color:#888; padding-top:3px;}
+.tvlist .tvlist_box .inner ul li.vimg span.ctl span.time{ padding-left:17px; background:url(../www_images/tv/spanico.png) 0 4px no-repeat; float:left}
+.tvlist .tvlist_box .inner ul li.vimg span.ctl span.pinglun{ float:right; padding-left:15px;background:url(../www_images/tv/spanico.png) 0 -15px no-repeat;}
+.tvlist .tvlist_box .inner ul li.vtitle{ padding-left:20px; line-height:14px; position:relative; margin-bottom:6px; border-bottom:1px dotted #ddd; width:150px; height:35px;}
+.tvlist .tvlist_box .inner ul li.vtitle span.vico{ display:block; width:13px; height:11px; overflow:hidden; font-size:0; line-height:0; position:absolute; left:0; top:2px; top:0px!ie; background-color:#90B86C; background-image:url(../www_images/tv/vtitlebg.png); background-repeat:no-repeat}
+.tvlist .tvlist_box .inner ul li.last{ border-bottom:0; text-align:right; font-family:"ËÎÌå"; height:30px!important; line-height:30px!important; padding:0!important; margin-top:-4px; position:absolute; right:10px; bottom:0px}
+.tvlist .tvlist_box .inner ul li.last a{ color:#888; text-decoration:underline}
+.tvlist .tvlist_box .inner ul li.last a:hover{ color:#000}
+.tvlist .ibox_tv1 .inner{ margin-left:1px}
+.tvlist .ibox_tv1{ border-top-color:#ACE07E}
+.tvlist .ibox_tv2{ border-top-color:#E188C2}
+.tvlist .ibox_tv3{ border-top-color:#A6A6A6}
+.tvlist .ibox_tv4{ border-top-color:#7EC0DA}
+.tvlist .ibox_tv5{ border-top-color:#E18786}
+.tvlist .ibox_tv1:hover{ background:#F2FCE9}
+.tvlist .ibox_tv2:hover{ background:#FBEBF6}
+.tvlist .ibox_tv3:hover{ background:#f5f5f5}
+.tvlist .ibox_tv4:hover{ background:#E8F6FC}
+.tvlist .ibox_tv5:hover{ background:#FDE9E9}
+.tvlist h3 a{ text-decoration:none}
+.tvlist h3 a:hover{ text-decoration:underline}
+.tvlist .ibox_tv1 h3,.tvlist .ibox_tv1 h3 a{ color:#588C29}
+.tvlist .ibox_tv2 h3,.tvlist .ibox_tv2 h3 a{ color:#BD2D8B}
+.tvlist .ibox_tv3 h3,.tvlist .ibox_tv3 h3 a{ color:#5D5D5D}
+.tvlist .ibox_tv4 h3,.tvlist .ibox_tv4 h3 a{ color:#3B8FB0}
+.tvlist .ibox_tv5 h3,.tvlist .ibox_tv5 h3 a{ color:#CB4C4B}
+.tvlist .ibox_tv1 ul li.vtitle a{ color:#588C29}
+.tvlist .ibox_tv2 ul li.vtitle a{ color:#BD2D8B}
+.tvlist .ibox_tv3 ul li.vtitle a{ color:#5D5D5D}
+.tvlist .ibox_tv4 ul li.vtitle a{ color:#3B8FB0}
+.tvlist .ibox_tv5 ul li.vtitle a{ color:#CB4C4B}
+.tvlist .ibox_tv1 ul li.vtitle span.vico{ background-color:#ACE07E!important}
+.tvlist .ibox_tv2 ul li.vtitle span.vico{ background-color:#E188C2!important}
+.tvlist .ibox_tv3 ul li.vtitle span.vico{ background-color:#A6A6A6!important}
+.tvlist .ibox_tv4 ul li.vtitle span.vico{ background-color:#7EC0DA!important}
+.tvlist .ibox_tv5 ul li.vtitle span.vico{ background-color:#E18786!important}
+.tvindexad{ margin-bottom:10px}
+.ibox .inner{ clear:both; overflow:hidden; zoom:1}
+.inbox ul.tj{ float:left; width:310px; padding:0 0 10px 10px}
+.inbox ul.tj li{ clear:both; overflow:hidden; zoom:1; font-size:12px; padding:10px 0}
+.inbox ul.tj li span.vimg{ float:left; width:100px}
+.inbox ul.tj li span.cont{ width:200px; float:right;}
+.inbox ul.tj li span.cont .info{ line-height:18px; color:#888}
+.inbox ul.tj li span.cont a{ line-height:16px}
+.ibox ul.rlist{ float:right; width:335px; margin-right:10px; padding:6px 0 10px 0}
+.ibox ul.rlist li{font-size:12px; border-bottom:1px dotted #ddd; height:28px; line-height:28px}
+.ibox ul.rlist li span.dot{ display:inline; color:#888; font-family:"ËÎÌå"}
+.ibox ul.rlist li a{ color:#444;}
+.ibox ul.rlist li a:hover{ color:#000;}
+.box320{ width:320px; overflow:hidden; zoom:1}
+.box650{ width:690px; overflow:hidden; zoom:1}
+.ynjd{ border:1px solid #ddd; margin-bottom:10px; width:298px; overflow:hidden; zoom:1}
+.ynjd h3{ font-size:12px; font-weight:100; line-height:18px; text-align:right; background:#FAFAFA url(../www_images/tv/ynjd.png) 0 0 no-repeat; height:42px; padding-top:8px; padding-right:10px; color:#666}
+.ynjd h3 strong{ color:#f60; font-weight:bold;}
+.ynjd h3 a{ text-decoration:underline;}
+.ynjd ul{ font-size:12px; clear:both; overflow:hidden; zoom:1; padding-bottom:10px}
+.ynjd ul li{ float:left; display:inline!ie; margin-left:8px}
+.ynjd ul li.info{ color:#f60; text-align:center; clear:both; overflow:hidden; zoom:1; width:100%; height:30px; line-height:30px}
+.newpl{}
+.newpl ul#allschool_loop{ height:439px;height:449px!ie; overflow:hidden}
+.newpl ul li{ clear:both; overflow:hidden; zoom:1; padding:10px; border-bottom:1px dotted #ddd; font-size:12px; color:#888; _margin-bottom:-3px}
+.newpl ul li span.vimg{ float:left; width:40px; padding-top:3px}
+.newpl ul li span.vcont{ float:right; width:228px; line-height:16px}
+
+.tvlist a.viewinfo{ display:block; width:15px; height:10px; font-size:0; overflow:hidden; background:url(../www_images/tv/viewinfo.png) 0 0 no-repeat; position:absolute; top:12px; right:45px; z-index:100}
+.tvlist .ibox_tv2 a.viewinfo,.tvlist .ibox_tv5 a.viewinfo{ right:41px}
+.tvlist .ibox_tv1 a.viewinfo:hover{ background-position:0 -10px}
+.tvlist .ibox_tv2 a.viewinfo:hover{ background-position:-15px -10px}
+.tvlist .ibox_tv3 a.viewinfo:hover{ background-position:-30px -10px}
+.tvlist .ibox_tv4 a.viewinfo:hover{ background-position:-45px -10px}
+.tvlist .ibox_tv5 a.viewinfo:hover{ background-position:-60px -10px}
+#ibox_tv_info1,#ibox_tv_info2,#ibox_tv_info3,#ibox_tv_info4,#ibox_tv_info5{ display:none; position:absolute; width:170px; padding:0 10px 10px; color:#666; top:30px; left:0; font-size:12px; _background:#fff!important}
+.block{ display:block!important}
+.tvlist .ibox_tv1 #ibox_tv_info1{ background:#F2FCE9}
+.tvlist .ibox_tv2 #ibox_tv_info2{ background:#FBEBF6}
+.tvlist .ibox_tv3 #ibox_tv_info3{ background:#f5f5f5}
+.tvlist .ibox_tv4 #ibox_tv_info4{ background:#E8F6FC}
+.tvlist .ibox_tv5 #ibox_tv_info5{ background:#FDE9E9}
+

@@ -1,0 +1,94 @@
+.div_reg_log{ top:-500px; }
+
+
+
+.div_reg_log, .divlogin_border{ width:450px; height:460px;  }
+
+
+
+.div_reg_log .inner{ width:430px; height:440px;  margin:10px; background:#FFF; z-index:20;}
+
+
+
+.div_reg_log{position:fixed; _position:absolute; }
+
+
+
+.divlogin_border, .div_reg_log .inner, .divlogin_bottom{ position:absolute; }
+
+
+
+.div_reg_log{ font-size:12px; z-index:9999999;}
+
+
+
+.divlogin_border{-moz-box-shadow:#666 2px 2px 3px; box-shadow:#666 2px 2px 3px; background:#000; filter:alpha(opacity=50); -moz-opacity:0.5; opacity:0.5; z-index:10;  }
+
+
+
+.divlogin_top h6{ font-family:"Î¢ÈíÑÅºÚ","ºÚÌå"; font-size:20px; font-weight:400; border-left:5px solid #C00; line-height:1em; padding-left:5px; margin:20px 20px 10px;}
+
+
+
+.divlogin_top h6 span{ float:right;  font-family:"ËÎÌå"; font-size:12px}
+
+
+
+.divlogin_top h6 span a{ font-weight:bold; color:#C00;}
+
+
+
+.divlogin_center{ padding:20px; background:#Fee; font-size:14px; line-height:2em; color:#666;}
+
+
+
+.divlogin_bottom{ width:100%; bottom:0; text-align:center; text-align:center; color:#999;}
+
+
+
+.divlogin_bottom{line-height:5em; }
+
+
+
+.div_reg_log .thelogin .input-text, .div_reg_log #dosubmit{-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+
+
+
+.div_reg_log, .div_reg_log .inner, .div_reg_log, .divlogin_border, .div_reg_log .logtip{-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:20px;}
+
+
+
+
+
+
+
+#divregister .divlogin_center { font-size:12px; background:#dae4ff;}
+
+
+
+.div_reg_log .log_right b, .div_reg_log .log_wrong b{ font-size:18px; font-style:normal; font-family:Geneva,Verdana; padding:0 5px; }
+
+
+
+.div_reg_log .log_right{ color:#090;}
+
+
+
+.div_reg_log .log_wrong{ color:#F00;}
+
+
+
+.div_reg_log .log_close{ z-index:100000000; position:absolute; display:block; overflow:hidden; right:-6px; top:-6px; width:35px; height:35px; cursor:pointer; background:url(../www_images/gobal/log_bg_close.png) no-repeat;}
+
+
+
+.div_reg_log .log_close{_ background:url(../www_images/gobal/log_bg_close_ie6.png) no-repeat;}
+
+
+
+.div_reg_log .log_close:hover{ background-position:0 -35px;}
+
+
+
+.div_reg_log .logtip{ background:#FFC; border:1px solid #CCC; padding:5px 10px; line-height:1.8em; margin:10px 20px;}
+
