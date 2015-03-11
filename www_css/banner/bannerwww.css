@@ -1,7 +1,0 @@
-#hibannerall, .hibannerall{ width:1000px; margin:0 auto;}
-.bannerwww, .bannerwww1{ display:none; z-index:9999999;}
-.bannerwww{ width:730px; height:380px; top:260px;  position:absolute; margin:0 auto; box-shadow:#444 0px 0px 20px; position:absolute;}
-.bannerwww img{ position:absolute; bottom:0; left:0; z-index:1;}
-.bannerwww a.close{ right:10px; top:10px; font-size:12px; padding:0 4px; border:1px solid #333; color:#333; cursor:pointer; z-index:2;  position:absolute;}
-.bannerwww a.close:hover{ border-color:#C96; background:#C96; color:#fff;}
-
